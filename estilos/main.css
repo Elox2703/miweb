@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ******************** DIV NAVEGACIÓN ******************** */
+#navegacion {
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+#navegacion a,
+#navegacion span {
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+}
+
+.separador {
+    border-color: black;
+    background-color: black;
+}
+
+/* ******************** DIV INDICE ******************** */
+#divIndice {
+    min-height: 200px;
+    width: 300px;
+    padding: 10px;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+#divIndice span {
+    color: white;
+}
+
+#divIndice ul {
+    margin: 5px 0 0;
+}
+
+#divIndice li {
+    list-style: none;
+}
+
+#divIndice a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* ******************** DIV CONTENIDO PLANTILLAS ******************** */
+#divContenido__plantillas {
+    font-size: 17px;
+}
+
+#divContenido__plantillas h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#divContenido__plantillas p{
+    font-size: 17px;
+    text-align: justify;
+}

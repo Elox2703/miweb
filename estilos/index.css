@@ -1,0 +1,106 @@
+/* ******************** HEADER ******************** */
+#divHeader {
+    /* border: 1px solid black; */
+    text-align: left;
+    background-image: url('../recursos/img/GalaxyWall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+#divHeader h3{
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 10px 0 0 10px;
+}
+
+
+/* ******************** CONTENIDO ******************** */
+#divContenido {
+    padding-bottom: 30px;
+}
+
+#divContenido__intro h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#divContenido__intro p {
+    text-align: justify;
+}
+
+#divContenido__intro__imgIntro {
+    height: 230px;
+    float: right;
+    margin-left: 20px;
+}
+
+#divContenido__temas {
+    /* border: 1px solid black; */
+    height: 300px;
+    background-color: white;
+    margin-top: 0;
+}
+
+#divContenido__temas #carruselTemas p {
+    color: black;
+    font-size: 15px;
+}
+
+#divContenido__temas #carruselTemas li {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 0;
+}
+
+.carruselTemas__divIMG {
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+.carruselTemas__divIMG:hover {
+    background-color: rgb(231, 226, 226);
+    opacity: 1;
+}
+
+.carruselTemas__divIMG__img {
+    height: 150px;
+    width: 90%;
+    /* margin-top: 50px; */
+    /* margin: auto; */
+    border-radius: 60px;
+}
+
+#divContenido__subtitulo {
+    background-color: rgb(65, 64, 64);
+    height: 30px;
+}
+
+#divContenido__temas #carruselTemas #carruselTemas__divTitulo {
+    height: 30px;
+    max-width: 220px;
+    margin: auto;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+}
+
+#divContenido__temas #carruselTemas #carruselTemas__divTitulo p {
+    font-size: 20px;
+    color: black;
+}
+
+#divContenido__subtitulo {
+    height: 40px;
+    padding-top: 5px;
+}
+
+/* ******************** FOOTER ******************** */
+#divFooter {
+    height: 50px;
+    background-color: silver;
+}

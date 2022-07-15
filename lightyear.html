@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Amazing Universe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- JQUERY -->
+        <script src="./frameworks/jquery/jquery-3.6.0.min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <script src="./frameworks/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="./frameworks/bootstrap/css/bootstrap.min.css">
+
+        <!-- UIKIT -->
+        <script src="./frameworks/uikit/js/uikit.min.js"></script>
+        <script src="./frameworks/uikit/js/uikit-icons.js"></script>
+        <link rel="stylesheet" href="./frameworks/uikit/css/uikit.min.css">
+
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- MY SCRIPTS AND CSS -->
+        <script src="./scripts/main.js"></script>
+        <script src=""></script>
+
+        <link rel="stylesheet" href="./estilos/main.css">
+        <link rel="stylesheet" href="./estilos/index.css">
+
+    </head>
+    <body>
+        <div id="divPrincipal" class="container-fluid">
+            <div class="row">
+                <div id="divHeader" class="col-sm-12">
+                    <h3 id="divHeader__titulo"></h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="relleno-izq" class="col-sm-1">
+                    <!-- RELLENO IZQUIERDO -->
+                </div>
+
+                <div id="divContenido" class="col-sm-10">
+                    <div class="row">
+
+                        <!-- *************** NAVEGACIÓN ************** -->
+                        <ul id="navegacion" class="uk-breadcrumb">
+                            <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
+                            <li><span>AÑO LUZ</span></li>
+                        </ul>
+                        <hr class="separador">
+
+                        <div id="divContenido__plantillas" class="col-sm-12">
+                            <h2>Año Luz</h2>
+                            <p class="uk-dropcap">
+                                Alguna vez te has preguntado <b>¿Qué es un año luz?</b>, muchos piensan, erróneamente, que el término "año luz" se refiere a <b>tiempo</b> cuando en realidad se refiere a <b>distancia</b>, es decir, es una medida de longitud. El universo es tan vasto que las medidas que utilizamos cotidianamente en la Tierra simplemente allá afuera se quedan muy pero muy cortas y es por ello que, además de los centímetros, metros o kilómetros, para determinar distancias en el universo se emplean otras medidas "un poquito" más grandes, a continuación veremos cuáles son.
+                            </p>
+                            <div id="divIndice">
+                                <span>Contenido</span>
+                                <ul>
+                                    <li><a href="#ua">1. Unidad Astronómica</a></li>
+                                    <li><a href="#luz">2. Año Luz</a></li>
+                                    <li><a href="#">3. Parsec</a></li>
+                                </ul>
+                            </div>
+
+                            <h2 id="ua">1. Unidad Astronómica</h2>
+                            <p>
+                                Todavía, para determinar distancias relativamente pequeñas como a la que se encuentra la Luna de la Tierra, o los planetas del Sol, utilizamos los kilómetros, por ejemplo, la Luna se encuentra a unos 380,000 kilómetros de la Tierra, o hablando de nuestro planeta, éste se encuentra a unos 149 millones de kilómetros del Sol, esto en número es 149,000,000 km.<br><br>
+                                Como habrás notado, la distancia medida en kilómetros que nos separa del Sol ya contiene muchos ceros por lo que distancias mayores se vuelven incómodas de manejar y para muchos difíciles de leer, este motivo llevó a los astrónomos a crear nuevas unidades de medida para representar estas enormes distancias de una manera más práctica, una de ellas es precisamente la <b>Unidad Astronómica</b>.<br><br>
+                                <b>¿Qué es una Unidad Astronómica?</b><br><br>
+                                Dicho de forma simple, la Unidad Astronómica es la distancia promedio que hay entre la Tierra y el Sol y se representa con las siglas <b>U. A.</b>, por lo tanto podemos decir que:<br><br>
+                                <b>1 UA</b> = 149,000,000 km<br><br>
+                                Haciendo uso de esta medida, es más sencillo decir que la Tierra se encuentra a 1 UA del Sol que decir que se encuentra a 149 millones de km, lo mismo para los planetas, por ejemplo Mercurio se encuentra a 0.39 UA del Sol y a su vez Marte se ubica a 1.52 unidades astronómicas del Sol.<br><br>
+                                En kilómetros estas distancias cuanto más grandes son se van volviendo más incómodas, por ejemplo si pensamos en el planeta más lejano, Neptuno, este se encuentra a unos 4,498,252,900 km, es decir, cuatro mil cuatrocientos noventa y ocho millones de kilómetros, que representado en <b>UA</b> es simplemente 30 UA.<br><br>
+                            </p>
+                            <h2 id="luz">2.  Año Luz</h2>
+                            <p>
+                                Fuera del Sistema Solar las distancias ya son enormes, por ejemplo, la vecina estrella más cercana al Sol, <b>Próxima Centauri</b>, se encuentra tan lejos que si expresaramos su distancia en kilómetros, esta sería de 39,921,200,000,000 km (39 billones 921 mil millones de kilómetros), y mientras más nos alejamos más ceros hay que incluir, incluso la <b>UA</b> se queda corta cuando de determinar distancias a estrellas se trata, esta misma estrella se encuentra a unas 267,927 UA del Sol. Por lo tanto para medir distancias estelares, es decir, a estrellas o galaxias, los astrónomos utilizan el <b>año luz</b> o bien el <b>parsec</b> que veremos más adelante.<br><br>
+                                <b>¿Qué es un Año Luz?</b><br>
+                                <p>
+                                    Como se lee al principio, el <b>año luz</b> es una medida de longitud, se llama así porque representa la distancia que recorre la luz en un año viajando a unos 300,000 km/s aproximadamente.<br><br>
+                                    Es decir, en un segundo un haz de luz se desplaza unos 300 mil kilómetros, por lo tanto en un minuto la luz recorre una distancia de unos 18,000,000 km y en una hora unos 1,080 millones de kilómetros, siguiendo este patrón y calculando cuántos segundos hay en un año podemos determinar cuánto es un año luz, multiplicando la velocidad de la luz por los segundos que hay en un año, es decir:<br><br>
+                                </p>
+                                <table class="table">
+                                    <tr>
+                                        <td colspan="4">1 minuto</td>
+                                        <td>60 segundos</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">1 hora</td>
+                                        <td colspan="2">60 minutos</td>
+                                        <td>3,600 segundos</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">1 día</td>
+                                        <td>24 horas</td>
+                                        <td>1,440 minutos</td>
+                                        <td>86,400 segundos</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1 año</td>
+                                        <td>365.25 días</td>
+                                        <td>8,766 horas</td>
+                                        <td>525,690 minutos</td>
+                                        <td>31,557,600 segundos</td>
+                                    </tr>
+                                </table>
+                                <p>
+                                    Entonces<br><br>
+                                    
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="relleno-der" class="col-sm-1">
+                    <!-- RELLENO DERECHO -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="divFooter" class="col-sm-12">
+                    <p class="fs-5 fw-boled text-white text-center mt-2">2022 México</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
