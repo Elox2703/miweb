@@ -5,10 +5,27 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* ******************** HEADER ******************** */
+#divHeader {
+    /* border: 1px solid black; */
+    text-align: left;
+    background-image: url('../recursos/img/GalaxyWall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+#divHeader h3{
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 10px 0 0 10px;
+}
+
+
 /* ******************** DIV NAVEGACIÓN ******************** */
 #navegacion {
-    margin-top: 6px;
-    margin-bottom: 3px;
+    margin: 6px 0 3px 10px;
 }
 
 #navegacion a,
@@ -64,4 +81,11 @@
 #divContenido__plantillas p{
     font-size: 17px;
     text-align: justify;
+}
+
+
+/* ******************** FOOTER ******************** */
+#divFooter {
+    height: 50px;
+    background-color: silver;
 }
