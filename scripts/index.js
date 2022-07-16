@@ -65,4 +65,7 @@ $(document).ready(function() {
     $('#carruselTemas-0').click(function() {
         sitioLightYear();
     });
+    $('#carruselTemas-1').click(function() {
+        sitioOort();
+    });
 });

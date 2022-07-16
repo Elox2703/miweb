@@ -17,15 +17,26 @@
 }
 
 #divHeader h3{
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     margin: 10px 0 0 10px;
 }
 
 
+/* ******************** DIV CONTENIDO ******************** */
+#divContenido__intro,
+#divContenido__plantillas {
+    /* margin-top: 20px; */
+}
+
 /* ******************** DIV NAVEGACIÓN ******************** */
 #navegacion {
-    margin: 6px 0 3px 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
 }
 
 #navegacion a,
@@ -37,6 +48,7 @@
 .separador {
     border-color: black;
     background-color: black;
+    margin-top: 30px;
 }
 
 /* ******************** DIV INDICE ******************** */
@@ -76,6 +88,10 @@
     font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
+    padding-left: 10px;
+    background-color: rgb(139, 136, 136);
+    border-radius: 5px;
+    color: whitesmoke;
 }
 
 #divContenido__plantillas p{
