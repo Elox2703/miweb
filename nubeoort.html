@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Amazing Universe</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- JQUERY -->
+        <script src="./frameworks/jquery/jquery-3.6.0.min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <script src="./frameworks/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="./frameworks/bootstrap/css/bootstrap.min.css">
+
+        <!-- UIKIT -->
+        <script src="./frameworks/uikit/js/uikit.min.js"></script>
+        <script src="./frameworks/uikit/js/uikit-icons.js"></script>
+        <link rel="stylesheet" href="./frameworks/uikit/css/uikit.min.css">
+
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- MY SCRIPTS AND CSS -->
+        <script src="./scripts/main.js"></script>
+        <script src=""></script>
+
+        <link rel="stylesheet" href="./estilos/main.css">
+        <link rel="stylesheet" href="./estilos/nubeoort.css">
+
+    </head>
+    <body>
+        <div id="divPrincipal" class="container-fluid">
+            <div class="row">
+                <div id="divHeader" class="col-sm-12">
+                    <h3 id="divHeader__titulo"></h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="relleno-izq" class="col-sm-1">
+                    <!-- RELLENO IZQUIERDO -->
+                </div>
+
+                <div id="divContenido" class="col-sm-10">
+                    <div class="row">
+
+                        <!-- *************** NAVEGACIÓN ************** -->
+                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                            <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
+                            <li><span>NUBE DE OORT</span></li>
+                        </ul>
+
+                        <div id="divContenido__plantillas" class="col-sm-12">
+                            <h2>La Nube de Oort</h2>
+                            <p class="uk-dropcap">
+                                Los objetos más misteriosos del Universo no siempre están a distancias tan enormes como a decenas de años luz o incluso en otras galaxias, sino que pueden estar en nuestra propia "vecindad", tal es el caso de la llamada <b>Nube de Oort</b>, una nube esférica de objetos transneptunianos que se encuentra en los límites del <b>Sistema Solar</b>.<br><br>
+                                Nuestro Sistema Solar, además del Sol, los planetas y sus lunas, está conformado por miles de millones de rocas conocidas como "asteroides", éstos asteroides están repartidos en cuatro regiones principales conocidas como: <b>el Cinturón de Asteroides, el Cinturón de Kuiper, el Disco Disperso y la hipotética Nube de Oort</b>, a continuación veremos a detalle cada uno.<br><br>
+                            </p>
+                            <div id="divIndice">
+                                <span>Contenido</span>
+                                <ul>
+                                    <li><a href="#asteroides">1. Cinturón de Asteroides</a></li>
+                                    <li><a href="#kuiper">2. Cinturón de Kuiper</a></li>
+                                    <li><a href="#disco">3. Disco Disperso</a></li>
+                                    <li><a href="#oort">4. Nube de Oort</a></li>
+                                    <li><a href="#resumen">Resumen</a></li>
+                                </ul>
+                            </div>
+
+                            <h2 id="asteroides">1. Cinturón de Asteroides</h2>
+                            <p>
+                                Seguramente ya habías escuchado sobre el <b>Cinturón de Asteroides</b>, y por lo tanto sabrás que es un anillo de rocas de diferentes tamaños que orbita alrededor del Sol entre las orbitas de los planetas <b>Marte y Júpiter</b>, la masa de este grupo de asteroides en conjunto es apenas un 4% de la masa lunar, es decir, es imperceptible, ya que incluso su objeto de mayor tamaño apenas mide unos 950 km de diámetro y de hecho tiene nombre, este objeto se llama <b>Ceres</b>, a pesar de su tamaño es considerado un "planeta" pero de los clasificados como <b>planetas enanos</b>, de los cuales existen cinco, los otros son <b>Eris, Haumea, Makemake y Plutón</b>.<br><br>
+                                <b>¿Por qué se les llama Planetas Enanos?</b><br><br>
+                                En 2006 tras el reciente descubrimiento de <b>Eris</b> un año atrás, la <b>Unión Astronómica Internacional (UAI)</b> decidió crear una nueva categoría de cuerpos celestes en la que entrarían éstos objetos y dada la nueva definición de planeta, Plutón sería descatalogado como tal, reduciendo el número de planetas del Sistema Solar de 9 a 8.<br><br>
+                                <b>Entonces, ¿Qué es un planeta?</b><br><br>
+                                Según la <b>UAI</b> la nueva definición de planeta dicta que, para que un cuerpo celeste sea considerado como tal debe cumplir con tres reglas, estas son:
+                                <ol>
+                                    <li>Debe orbitar el Sol.</li>
+                                    <li>Debe ser lo suficientemente masivo para alcanzar el equilibrio hidrostático y adquirir una forma esférica.</li>
+                                    <li>Debe haber limpiado su órbita de otros objetos menores, es decir, no compartir su órbita con otros objetos.</li>
+                                </ol>
+                                Es precisamente en el último punto en donde los planetas enanos fallan, ya que aunque orbitan alrededor del Sol y son prácticamente esféricos, todos comparten su órbita con enormes cantidades de asteroides formando parte de esos mismos grupos o cinturones:
+                                <ul>
+                                    <li>Ceres del Cinturón de Asteroides</li>
+                                    <li>Plutón, Makemake y Haumea del Cinturón de Kuiper</li>
+                                    <li>Eris del Disco Disperso</li>
+                                </ul>
+                            </p>
+                            <h2 id="kuiper">2.  Cinturón de Kuiper</h2>
+                            <p>
+                                La segunda región de asteroides del Sistema Solar es el <b>Cinturón de Kuiper</b>, este cinturon de asteroides se encuentra más lejano y es mucho más amplio y masivo que el anterior ya que se localiza más allá de Neptuno a unas 30 Unidades Astronómicas (UA) y se extiende hasta las casi 50 UA del Sol, es decir, es enorme y su masa supera entre 20 y 200 veces la del Cinturón de Asteroides.<br><br>
+                                Se compone principalmente por cuerpos pequeños y rocas remanentes que datan de la formación del Sistema Solar, rocas que en su mayoría están compuestas de elementos volátiles congelados como metano, amoniaco y agua, y como se mencionó antes, además de pequeños asteroides, el Cinturón de Kuiper alberga tres de los planetas enanos: <b>Plutón, Haumea y Makemake</b>, siento estos sus objetos más grandes.<br><br>
+                                <b>Fuente de Cometas</b><br><br>
+                                A diferencia del Cinturón de Asteroides ubicado entre Marte y Júpiter, el Cinturón de Kuiper cuenta con objetos de considerable tamaño pues se cree que existen al menos unos 100,000 cuerpos de aproximadamente 100 km de diámetro, es decir, bastante grandes, por lo que se llegó a pensar que éste cinturón era la fuente de los cometas periódicos de órbitas menores a los 200 años, sin embargo investigaciones posteriores demostraron que el cinturón es bastante estable y pocos objetos escapan de él, apuntando a que el verdadero origen de los cometas es el llamado <b>Disco Disperso</b>, una región de asteroides que se solapa con el propio <b>Cinturón de Kuiper</b> en sus límites exteriores, como si ambos formaran parte de un mismo disco, sin embargo los objetos del Disco Disperso tienen órbitas tan excéntricas que los alejan hasta las 100 UA del Sol, es decir, mucho más allá de los límites del propio Cinturón de Kuiper.<br><br>
+                                A los cuerpos pertenecientes Cinturón de Kuiper también se les conoce como <b>objetos transneptunianos</b> y no solo a estos sino a los que forman parte del <b>Disco Disperso</b> y de la <b>Nube de Oort</b>. Un objeto transneptuniano no es más que cualquier objeto cuya órbita se ubica más allá de la órbita de Neptuno, es decir, estos objetos son los cuerpos más lejanos que alberga nuestro Sistema Solar.
+                            </p>
+                            <h2 id="disco">3.  Disco Disperso</h2>
+                            <p>
+                                El...
+                            </p><br>
+                            <h2 id="oort">4. Nube de Oort</h2>
+                            <p>
+                                En la...
+                            </p>                            
+                            <h2 id="resumen">Resumen</h2>
+                            <p>
+                                En la Tierra...
+                            </p>
+                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="relleno-der" class="col-sm-1">
+                    <!-- RELLENO DERECHO -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="divFooter" class="col-sm-12">
+                    <p class="fs-5 fw-boled text-white text-center mt-2">2022 México</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

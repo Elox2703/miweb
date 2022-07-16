@@ -3,6 +3,8 @@
     <head>
         <title>Amazing Universe</title>
         <meta charset="UTF-8">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- JQUERY -->
@@ -48,11 +50,10 @@
                     <div class="row">
 
                         <!-- *************** NAVEGACIÓN ************** -->
-                        <ul id="navegacion" class="uk-breadcrumb">
+                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
                             <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
                             <li><span>AÑO LUZ</span></li>
                         </ul>
-                        <hr class="separador">
 
                         <div id="divContenido__plantillas" class="col-sm-12">
                             <h2>Año Luz</h2>
@@ -64,7 +65,8 @@
                                 <ul>
                                     <li><a href="#ua">1. Unidad Astronómica</a></li>
                                     <li><a href="#luz">2. Año Luz</a></li>
-                                    <li><a href="#">3. Parsec</a></li>
+                                    <li><a href="#parsec">3. Parsec</a></li>
+                                    <li><a href="#resumen">Resumen</a></li>
                                 </ul>
                             </div>
 
@@ -150,7 +152,16 @@
                                 • Kilopársec (kpc) mil pársecs<br>
                                 • Megapársec (Mpc) 1 millón de pársecs<br>
                                 • Gigapársec (Gpc) mil millones de pársecs.
+                            </p><br>
+                            <h2 id="resumen">Resumen</h2>
+                            <p>
+                                En la Tierra quizás la distancia entre un país y otro o entre continentes no parezca enorme, pero en el espacio esas distancias son insignificantes, solo por comparar, el diametro promedio de la Tierra mide unos 12,600 km y la distancia entre la Tierra y la Luna es de unos 380,000 km, es decir, entre la Tierra y la Luna caben unos 31 diámetros terrestres o bien 31 tierras, así de enorme es la distancia que nos separa de nuestro único satélite natural, y si consideramos la distancia al Sol, esta es tan grande que podríamos poner en fila 11,825 tierras para cubrirla.<br><br>
+                                Y ni hablar de cuántas tierras cabrían entre la distancia que hay entre la Tierra y otras estrellas, tan solo pensando en la estrella más cercana al Sistema Solar cabrían más de 3 mil millones de tierras, muchas ¿no?.<br><br>
+                                Tan enormes son las distancias en el Universo que incluso para la luz, que es lo más rápido que conocemos, le toma años recorrer tales distancias, por ello mismo se dice que <b>mirar hacia el espacio es mirar al pasado</b> ya que si por ejemplo miramos una galaxia que se encuentra a 2.5 millones de años luz, significa que la estamos viendo a como era hace precisamente 2.5 millones de años puesto que la luz que emanó de ella hace ese mismo tiempo apenas nos está llegando.<br><br>
+                                Lo mismo aplica para cualquier objeto lejano o cercano, volviendo al Sol, su luz tarda 8 minutos en llegarnos por lo tanto mirar el Sol es ver cómo era hace 8 minutos y si por ejemplo el Sol se apagara de golpe en este momento, nosotros no nos daríamos cuenta ya que lo seguiríamos viendo brillar al menos por 8 minutos luego éste desaparecería.
                             </p>
+                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
                         </div>
                     </div>
                 </div>
