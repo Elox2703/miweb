@@ -13,6 +13,10 @@ function sitioOort() {
     window.open('nubeoort.html', '_self');
 }
 
+function sitioEstrellas() {
+    window.open('estrellas.html', '_self');
+}
+
 $(document).ready(function() {
     console.log('Ready');
     $('#divHeader__titulo').text(tituloHeader);

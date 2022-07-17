@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Amazing Universe</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- JQUERY -->
+        <script src="./frameworks/jquery/jquery-3.6.0.min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <script src="./frameworks/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="./frameworks/bootstrap/css/bootstrap.min.css">
+
+        <!-- UIKIT -->
+        <script src="./frameworks/uikit/js/uikit.min.js"></script>
+        <script src="./frameworks/uikit/js/uikit-icons.js"></script>
+        <link rel="stylesheet" href="./frameworks/uikit/css/uikit.min.css">
+
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- MY SCRIPTS AND CSS -->
+        <script src="./scripts/main.js"></script>
+        <script src=""></script>
+
+        <link rel="stylesheet" href="./estilos/main.css">
+        <!-- <link rel="stylesheet" href="./estilos/nubeoort.css"> -->
+
+    </head>
+    <body>
+        <div id="divPrincipal" class="container-fluid">
+            <div class="row">
+                <div id="divHeader" class="col-sm-12">
+                    <h3 id="divHeader__titulo"></h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="relleno-izq" class="col-sm-1">
+                    <!-- RELLENO IZQUIERDO -->
+                </div>
+
+                <div id="divContenido" class="col-sm-10">
+                    <div class="row">
+
+                        <!-- *************** NAVEGACIÓN ************** -->
+                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                            <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
+                            <li><span>TEMA</span></li>
+                        </ul>
+
+                        <div id="divContenido__plantillas" class="col-sm-12">
+                            <h2>Título</h2>
+                            <p class="uk-dropcap">
+                                Tema intro.<br><br>
+                            </p>
+                            <div id="divIndice">
+                                <span>Contenido</span>
+                                <ul>
+                                    <li><a href="#tema-1">1.</a></li>
+                                    <li><a href="#tema-2">2.</a></li>
+                                    <li><a href="#tema-3">3.</a></li>
+                                    <li><a href="#tema-4">4.</a></li>
+                                    <li><a href="#resumen">Resumen</a></li>
+                                </ul>
+                            </div>
+
+                            <h2 id="tema-1">1. Cinturón de Asteroides</h2>
+                            <p>
+                                ...
+                            </p>
+                            <h2 id="tema-2">2.  Cinturón de Kuiper</h2>
+                            <p>
+                                ...
+                            </p>
+                            <h2 id="tema-3">3.  Disco Disperso</h2>
+                            <p>
+                               ...
+                            </p>
+                            <h2 id="tema-4">4. Nube de Oort</h2>
+                            <p>
+                                ...
+                            </p>                            
+                            <h2 id="resumen">Resumen</h2>
+                            <p>
+                                ...
+                            </p><br><br>
+                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="relleno-der" class="col-sm-1">
+                    <!-- RELLENO DERECHO -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="divFooter" class="col-sm-12">
+                    <p class="fs-5 fw-boled text-white text-center mt-2">2022 México</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+:root {
+    --bordeTabla: rgb(174, 191, 207);
+}
+
+table {    
+    margin: auto;
+}
+
+.tabla-diametro {
+    border: 1px solid var(--bordeTabla);
+    width: 400px;
+    font-size: 15px;
+}
+
+#img-eclipses {
+    float: right;
+    margin: 5px 0 0 10px;
+    height: 170px;
+}
+
+.tabla-proxima {
+    border: 1px solid var(--bordeTabla);
+    max-width: 560px;
+    font-size: 14px;
+}
+
+.tabla-proxima th,
+.tabla-proxima td {
+    border: 1px solid var(--bordeTabla);
+}
+
+.tabla-proxima th {
+    text-align: center;
+}
+
+.tabla-estrellas {
+    border: 1px solid var(--bordeTabla);
+    max-width: 500px;
+    font-size: 14px;
+}
+
+.tabla-estrellas th,
+.tabla-estrellas td {
+    border: 1px solid var(--bordeTabla);
+}

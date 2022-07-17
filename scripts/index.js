@@ -1,5 +1,5 @@
 let temas = [
-    "Año luz",
+    "Año Luz",
     "Nube de Oort",
     "Estrellas",
     "Supernovas",
@@ -67,5 +67,8 @@ $(document).ready(function() {
     });
     $('#carruselTemas-1').click(function() {
         sitioOort();
+    });
+    $('#carruselTemas-2').click(function() {
+        sitioEstrellas();
     });
 });
