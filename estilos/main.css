@@ -5,6 +5,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.imagen {
+    border-radius: 5px;
+}
 
 /* ******************** HEADER ******************** */
 #divHeader {
@@ -20,13 +23,6 @@
     font-size: 40px;
     color: whitesmoke;
     margin: 10px 0 0 10px;
-}
-
-
-/* ******************** DIV CONTENIDO ******************** */
-#divContenido__intro,
-#divContenido__plantillas {
-    /* margin-top: 20px; */
 }
 
 /* ******************** DIV NAVEGACIÓN ******************** */

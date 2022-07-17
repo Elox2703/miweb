@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Amazing Universe</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- JQUERY -->
+        <script src="./frameworks/jquery/jquery-3.6.0.min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <script src="./frameworks/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="./frameworks/bootstrap/css/bootstrap.min.css">
+
+        <!-- UIKIT -->
+        <script src="./frameworks/uikit/js/uikit.min.js"></script>
+        <script src="./frameworks/uikit/js/uikit-icons.js"></script>
+        <link rel="stylesheet" href="./frameworks/uikit/css/uikit.min.css">
+
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- MY SCRIPTS AND CSS -->
+        <script src="./scripts/main.js"></script>
+        <script src=""></script>
+
+        <link rel="stylesheet" href="./estilos/main.css">
+        <link rel="stylesheet" href="./estilos/estrellas.css">
+
+    </head>
+    <body>
+        <div id="divPrincipal" class="container-fluid">
+            <div class="row">
+                <div id="divHeader" class="col-sm-12">
+                    <h3 id="divHeader__titulo"></h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="relleno-izq" class="col-sm-1">
+                    <!-- RELLENO IZQUIERDO -->
+                </div>
+
+                <div id="divContenido" class="col-sm-10">
+                    <div class="row">
+
+                        <!-- *************** NAVEGACIÓN ************** -->
+                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                            <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
+                            <li><span>ESTRELLAS</span></li>
+                        </ul>
+
+                        <div id="divContenido__plantillas" class="col-sm-12">
+                            <h2>Las Estrellas</h2>
+                            <p class="uk-dropcap">
+                                Probablemente las estrellas no parezcan tan impresionantes, parecen ser solo unos puntos luminosos que adornan nuestro cielo nocturno que desde hace miles de años han sido observados por nuestros antepasados quienes les dieron nombres y hasta formaron figuras imaginarias con ellas, pero en realidad son mucho más que eso, las estrellas no son más que "soles", al igual que el Sol, que se encuentran a distancias tan impresionantes que apenas podemos verlos como esos pequeños puntos luminosos, a veces blancos, azules o incluso naranja o rojo, colores que se deben a su composición y edad.<br><br>
+                            </p>
+                            <div id="divIndice">
+                                <span>Contenido</span>
+                                <ul>
+                                    <li><a href="#tema-1">1. El Sol</a></li>
+                                    <li><a href="#tema-2">2. Próxima Centauri</a></li>
+                                    <li><a href="#tema-3">3. Magnitud Aparente y Absoluta</a></li>
+                                    <li><a href="#tema-4">4. Evolución Estelar</a></li>
+                                    <li><a href="#resumen">Resumen</a></li>
+                                </ul>
+                            </div>
+
+                            <h2 id="tema-1">1. El Sol</h2>
+                            <p>
+                                El <b>Sol</b> es la estrella más cercana a nosotros, se encuentra apenas a unos 8 minutos luz o bien, a <b>1 Unidad Astronómica</b>, distancia que equivale a unos 149 millones de kilómetros (149,000,000 km), mismos que la luz tarda en recorrer aproximadamente 8 minutos, por eso se dice que está a 8 minutos luz.<br><br>
+                                Como todas las estrellas, el Sol es un objeto enorme, es tan grande y masivo que representa el 99.8% de toda la masa del <b>Sistema Solar</b>, si lo comparamos con nuestro planeta, aunque la Tierra nos parezca muy grande cambrían casi 1 millón 300 mil Tierras en él, eso si de volúmen se trata, pero si solo comparamos su diámetro con el de la Tierra, el diámetro del Sol es de aproximadamente de 1,391,016 km mientras que el de la Tierra es de 12,742 km, eso quiere decir que de lado a lado, la Tierra cabría unas 109 veces en el Sol, como puedes darte cuenta el Sol es muy grande.<br><br>
+                                <b>La coincidencia a la que debemos los Eclipses Totales de Sol</b><br><br>
+                                A propósito de tamaños y distancias, es gracias a una curiosa coincidencia a la que debemos los eclipses totales de Sol, y esta es precisamente sus tamaños y distancias respecto a la Tierra. ¿Cómo es esto?<br><br>
+                                En primer lugar, tenemos que <b>el Sol es unas 400 veces más grande que la Luna</b> y al mismo tiempo resulta que <b>el Sol está casi 400 veces más lejos de la Tierra que la Luna</b>. ¿Qué significa esto?<br><br>
+                                Significa que aunque el Sol es mucho más grande que la Luna, al encontrarse el mismo número de veces que es mayor, más distante, hace que ambos objetos aparenten tener el mismo tamaño y por lo tanto cuando la Luna se interpone entre la Tierra y el Sol, ésta lo cubre en su totalidad provocando el conocido <b>Eclipse Total de Sol</b>,
+                                <img class="imagen" id="img-eclipses" src="./recursos/img/eclipses-tipos.jpg" alt="eclipse-tipos" title="Tipos de eclipses">
+                                básicamente la Luna estando más cerca se ve más grande y el Sol estando más lejos se ve más chico, lo suficiente como para que la Luna pueda cubrirlo, claro esto no siempre pasa, tienen que darse todas las condiciones necesarias, la Luna orbita alrededor de la Tierra y no siempre está a la misma distancia del planeta, a veces más cerca a veces más lejos, por ello es que los eclipses de Sol no siempre son "totales", a veces son parciales o anulares.<br><br>
+                                Considerando el diámetro de la Luna como la unidad:
+                            </p>
+                            
+                            <table class="table tabla-diametro">
+                                <tr>
+                                    <th>Cuerpo</th>
+                                    <th>Diámetro</th>
+                                    <th>Número de veces</th>
+                                </tr>
+                                <tr>
+                                    <td>Luna</td>
+                                    <td>3,476 km</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Sol</td>
+                                    <td>1,391,016 km</td>
+                                    <td>400.17</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">El Sol es 400 veces más grande que la Luna</td>
+                                </tr>
+                            </table>
+                            <p>
+                                Considerando la distancia Tierra-Luna como la unidad:
+                            </p>
+                            <table class="table tabla-diametro">
+                                <tr>
+                                    <th>Cuerpo</th>
+                                    <th>Distancia a la Tierra</th>
+                                    <th>Número de veces</th>
+                                </tr>
+                                <tr>
+                                    <td>Luna</td>
+                                    <td>384,400 km</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Sol</td>
+                                    <td>150,000,000 km</td>
+                                    <td>390.18</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        El Sol está 390 veces más lejos que la Luna
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p>
+                                En otras palabras, si el Sol fuera más grande, o la Luna más pequeña, o alguno de los dos se encontrara más lejos, esta coincidencia no se daría y no existirían los eclipses totales de Sol, ya que la Luna se vería más chica y no alcanzaría a cubrir el disco solar.<br><br>
+                                <b>Edad del Sol</b><br><br>
+                                Las estrellas viven literalmente millones de años, se dice que nuestro Sol tiene una edad aproximada de 4,600 millones de años y que por lo menos brillará otro lapso de tiempo igual, es decir, está a la mitad de su ciclo de vida como la mayoría de estrellas en el Universo, a esta etapa se le llama <b>Secuencia Principal</b>, esta es una fase por la que pasan la mayoría de estrellas en la que adoptan una luminosidad amarilla que indica que la estrella consume hidrógeno como combustible principal.<br><br>
+                                Dado que el Sol, y todas las estrellas son enormes reactores nucleares, deben su calor y luminosidad a la fusión de elementos en su núcleo, en el caso del Sol está fusionando hidrógeno en helio, una vez que se termine el hidrógeno comenzará a fusionar el helio y así sucesivamente en un cliclo de fusión en el que cada vez los elementos resultantes serán más y más pesados, hasta el punto en que éstos no se podrán fusionar más, cuando el Sol llegue a esta etapa expandirá su volumen convirtiéndose en una <b>Gigante Roja</b>, que es un tipo de estrella moribunda, luego consumirá sus elementos restantes perdiendo masa y volumen hasta convertirse en una <b>Enana Blanca</b>, un tipo de estrella que se encuentra en la etapa final de su vida, permanecerá así hasta apagarse por completo, pero para que esto suceda deberán pasar al menos 4 mil millones de años.
+                            </p>
+                            <h2 id="tema-2">2. Próxima Centauri</h2>
+                            <p>
+                                Luego del Sol, nuestra estrella vecina más cercana es <b>Próxima Centauri</b> o también llamada <b>Alfa Centauri C</b> ya que forma parte de un <b>sistema estelar</b> triple, es decir, un grupo de tres estrellas ligadas gravitatoriamente, es decir, se orbitan entre si y viajan juntas por el espacio.<br><br>
+                                Como su nombre lo sugiere, los nombres de estas estrellas son: <b>Alfa Centauri A, Alfa Centauri B y Alfa Centauri C</b>, siendo esta última la que por su posición orbital se ubica más próxima a la Tierra, de ahí su nombre <b>Próxima Centauri</b>.<br><br>
+                                Este sistema estelar se encuentra a unos 4.3 años luz de nuestro <b>Sistema Solar</b>, fuera de nuestro alcance pero muy cercano en comparación con otras estrellas, se compone por dos estrellas principales que son Alfa Centauri A y B, también llamadas Rigil Kentaurus y Toliman respectivamente, siendo la primera de un tamaño muy similar al Sol, solo un 10% más masiva y un 23% más grande, mientras que la segunda es un poco menor, estas dos estrellas se orbitan mútuamente muy cerca entre si, mientras que Próxima Centauri se encuentra más alejada, a unas 15 mil UA y las orbita a ambas, hecho por el cual se convierte en la más cercana, ya que al estar tan separada en algún punto de su órbita se coloca en dirección de nuestro sistema y por lo tanto más cerca de nosotros, es por ello que esta estrella se localiza a unos 4.22 años luz del Sol.
+                            </p>    
+                            <div class="text-center">                          
+                                <img class="imagen" src="./recursos/img/alfa-centauri.jpg" title="Comparación Sol - Alfa Centauri">
+                            </div>
+                            <p>
+                                Aunque estas tres estrellas son las más cercanas al Sistema Solar no destacan en el cielo nocturno, ya que a simple vista apenas pueden distinguirse sus dos miembros mayores como un único punto luminoso, mientras que Próxima es imposible de observar ya que su luminosidad es demasiado débil y solo puede verse con ayuda de potentes telescopios.<br><br>
+                                Ocupando estas tres estrellas el primer lugar entre las más cercanas, la lista de las 10 estrellas más próximas al Sistema Solar es la siguiente.
+                            </p>
+                            <table class="table tabla-proxima">
+                                <tr>
+                                    <th>Posición</th>
+                                    <th>Estrella</th>
+                                    <th>Distancia Años Luz</th>
+                                    <th>Magnitud Aparente</th>
+                                    <th>Visible sin telescopio</th>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3" valign="middle">1</td>
+                                    <td>Próxima Centauri</td>
+                                    <td>4.22</td>
+                                    <td>11</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Alfa Centauri A</td>
+                                    <td>4.36</td>
+                                    <td>-0.01</td>
+                                    <td>Si</td>
+                                </tr>
+                                <tr>
+                                    <td>Alfa Centauri B</td>
+                                    <td>4.36</td>
+                                    <td>1.35</td>
+                                    <td>Si</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Estrella de Barnard</td>
+                                    <td>5.96</td>
+                                    <td>9.53</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" valign="middle">3</td>
+                                    <td>Luhman 16A</td>
+                                    <td>6.59</td>
+                                    <td>10.7</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Luhman 16B</td>
+                                    <td>6.59</td>
+                                    <td>N/D</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>WISE 0855-0714</td>
+                                    <td>7.2</td>
+                                    <td>N/D</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Wolf 359</td>
+                                    <td>7.78</td>
+                                    <td>13.44</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Lalande 21185</td>
+                                    <td>8.29</td>
+                                    <td>7.47</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" valign="middle">7</td>
+                                    <td>Sirio A</td>
+                                    <td>8.58</td>
+                                    <td>-1.47</td>
+                                    <td>Si</td>
+                                </tr>
+                                <tr>
+                                    <td>Sirio B</td>
+                                    <td>8.58</td>
+                                    <td>8.44</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" valign="middle">8</td>
+                                    <td>Luyten 726-8 B</td>
+                                    <td>8.72</td>
+                                    <td>12.54</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Luyten 726-8 A</td>
+                                    <td>8.72</td>
+                                    <td>12.99</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Ross 154</td>
+                                    <td>9.68</td>
+                                    <td>10.43</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Ross 248</td>
+                                    <td>10.32</td>
+                                    <td>12.29</td>
+                                    <td>No</td>
+                                </tr>
+                            </table>
+                            <p>
+                                Son las más cercanas, pero de esta lista solo las estrellas Alfa Centauri A y B y Sirio A son visibles a simple vista, y de hecho Sirio A es la estrella más brillante del cielo nocturno, y citando a las 10 estrellas más brillantes (más el Sol y la Luna) la lista es la siguiente.
+                            </p>
+                            <table class="table tabla-estrellas">
+                                <tr>
+                                    <th>Posición</th>
+                                    <th>Estrella</th>
+                                    <th>Magnitud Aparente</th>
+                                    <th>Distancia Años Luz</th>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Sol</td>
+                                    <td>-26.8</td>
+                                    <td>8 minutos</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Luna llena</td>
+                                    <td>-12.6</td>
+                                    <td>1.2 segundos</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Sirio A</td>
+                                    <td>-1.47</td>
+                                    <td>8.6</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Canopus</td>
+                                    <td>-0.72</td>
+                                    <td>310</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Arturo</td>
+                                    <td>-0.05</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Alfa Centauri A</td>
+                                    <td>0.01</td>
+                                    <td>4.36</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Vega</td>
+                                    <td>0.03</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Rigel</td>
+                                    <td>0.12</td>
+                                    <td>860</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Procyon</td>
+                                    <td>0.34</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Achernar</td>
+                                    <td>0.5</td>
+                                    <td>140</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Betelgeuse</td>
+                                    <td>0.58</td>
+                                    <td>630</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Hadar</td>
+                                    <td>0.6/td>
+                                    <td>397</td>
+                                </tr>
+                            </table>
+                            <p>
+                                En este caso hay estrellas muy lejanas, como lo son <b>Rigel y Betelgeuse</b>, ambas de la constelación de <b>Orión</b>, que superan los 500 años luz de distancia y a pesar de estar tan lejos figuran entre las 10 estrellas más brillantes, ¿por qué sucede esto?, respuesta simple: porque son enormes.<br><br>
+                                Por su parte Rigel tiene una masa que equivale a 18 veces la del Sol, es muy grande, tanto que si la colocaramos en el centro del Sistema Solar, su radio llegaría hasta la órbita de Mercurio, de hecho está catalogada como una estrella tipo <b>supergigante</b>, categoría que engloba a las estrellas que comprenden entre 18 y 50 masas solares, así como es tan grande también es extremadamente luminosa, su luminosidad es de unos 85 mil soles por lo que a pesar de la distancia podemos verla tan brillante.<br><br>
+                                Por otro lado <b>Betelgeuse</b> es tan masiva como Rigel o quizás lo sea aun más, también está catalogada como una <b>supergigante</b>, pero en este caso "roja", lo cual indica que es una estrella moribunda que se encuentra en la etapa final de su vida, aun así, tiene una luminosidad que supera a la del Sol en al menos 100 mil veces y es gracias a ello que se encuentra entre las más brillantes a pesar de su lejanía.<br><br>
+
+                            </p>
+                            <h2 id="tema-3">3. Magnitud Aparente y Absoluta</h2>
+                            <p>
+                                Una de las categorías en las que se puede clasificar a las estrellas es precisamente por su luminosidad, esta se puede medir en dos tipos, la <b>Magnitud Aparente</b> y la <b>Magnitud Absoluta</b>.<br><br>
+                                <b>Magnitud Aparente</b><br><br>
+                                <b>Magnitud Absoluta</b><br><br>
+                            </p>
+                            <h2 id="tema-4">4. Evolución Estelar</h2>
+                            <p>s
+                                ...
+                            </p>                       
+                            <h2 id="resumen">Resumen</h2>
+                            <p>
+                                ...
+                            </p><br><br>
+                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="relleno-der" class="col-sm-1">
+                    <!-- RELLENO DERECHO -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="divFooter" class="col-sm-12">
+                    <p class="fs-5 fw-boled text-white text-center mt-2">2022 México</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
