@@ -19,6 +19,20 @@
     margin-left: 20px;
 }
 
+#tema-izq {
+    float: left;
+    margin-left: 10px;
+}
+
+#tema-der {
+    float: right;
+    margin-right: 10px;
+}
+
+#tema-titulo {
+    margin-left: 34%;
+}
+
 #divContenido__temas {
     /* border: 1px solid black; */
     height: 300px;

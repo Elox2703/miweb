@@ -34,12 +34,19 @@
 
     </head>
     <body>
+        <div id="divHeader" class="col-sm-12">
+            <h3 id="divHeader__titulo"></h1>
+        </div>
+        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+            <li><a href="#" onclick="sitioInicio()"><img src="./recursos/icons/home_xs.png"> INICIO</a></li>
+            <li><span>TEMA</span></li>
+        </ul>
         <div id="divPrincipal" class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div id="divHeader" class="col-sm-12">
                     <h3 id="divHeader__titulo"></h1>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div id="relleno-izq" class="col-sm-1">
@@ -50,13 +57,13 @@
                     <div class="row">
 
                         <!-- *************** NAVEGACIÓN ************** -->
-                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
-                            <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
+                        <!-- <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                            <li><a href="#" onclick="sitioInicio()"><img src="./recursos/icons/home_xs.png"> INICIO</a></li>
                             <li><span>TEMA</span></li>
-                        </ul>
+                        </ul> -->
 
                         <div id="divContenido__plantillas" class="col-sm-12">
-                            <h2>Título</h2>
+                            <h2 id="titulo">Título</h2>
                             <p class="uk-dropcap">
                                 Tema intro.<br><br>
                             </p>
@@ -91,7 +98,7 @@
                             <p>
                                 ...
                             </p><br><br>
-                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
                             <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
                         </div>
                     </div>

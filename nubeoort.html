@@ -33,13 +33,20 @@
         <link rel="stylesheet" href="./estilos/nubeoort.css">
 
     </head>
-    <body>
+    <body>        
+        <div id="divHeader" class="col-sm-12">
+            <h3 id="divHeader__titulo"></h1>
+        </div>
+        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+            <li><a href="#" onclick="sitioInicio()"><img src="./recursos/icons/home_xs.png"> INICIO</a></li>
+            <li><span>NUBE DE OORT</span></li>
+        </ul>
         <div id="divPrincipal" class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div id="divHeader" class="col-sm-12">
                     <h3 id="divHeader__titulo"></h1>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div id="relleno-izq" class="col-sm-1">
@@ -48,17 +55,15 @@
 
                 <div id="divContenido" class="col-sm-10">
                     <div class="row">
-
                         <!-- *************** NAVEGACIÓN ************** -->
-                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                        <!-- <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
                             <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
                             <li><span>NUBE DE OORT</span></li>
-                        </ul>
-
+                        </ul> -->
                         <div id="divContenido__plantillas" class="col-sm-12">
-                            <h2>La Nube de Oort</h2>
+                            <h2 id="titulo">La Nube de Oort</h2>
                             <p class="uk-dropcap">
-                                Los objetos más misteriosos del Universo no siempre están a distancias tan enormes como a decenas de años luz o incluso en otras galaxias, sino que pueden estar en nuestra propia "vecindad", tal es el caso de la llamada <b>Nube de Oort</b>, una nube esférica de objetos transneptunianos que se encuentra en los límites del <b>Sistema Solar</b>.<br><br>
+                                Los objetos más misteriosos del Universo no siempre están a distancias tan enormes como decenas de años luz o en otras galaxias, sino que pueden estar en nuestra propia "vecindad", tal es el caso de la llamada <b>Nube de Oort</b>, una nube esférica de objetos transneptunianos que se encuentra en los límites del <b>Sistema Solar</b> que a pesar de estar tan "cerca" muy poco sabemos de ella.<br><br>
                                 Nuestro Sistema Solar, además del Sol, los planetas y sus lunas, está conformado por miles de millones de rocas conocidas como "asteroides", éstos asteroides están repartidos en cuatro regiones principales conocidas como: <b>el Cinturón de Asteroides, el Cinturón de Kuiper, el Disco Disperso y la hipotética Nube de Oort</b>, a continuación veremos a detalle cada uno.<br><br>
                             </p>
                             <div id="divIndice">
@@ -79,41 +84,43 @@
                                 En 2006 tras el reciente descubrimiento de <b>Eris</b> un año atrás, la <b>Unión Astronómica Internacional (UAI)</b> decidió crear una nueva categoría de cuerpos celestes en la que entrarían éstos objetos y dada la nueva definición de planeta, Plutón sería descatalogado como tal, reduciendo el número de planetas del Sistema Solar de 9 a 8.<br><br>
                                 <b>Entonces, ¿Qué es un planeta?</b><br><br>
                                 Según la <b>UAI</b> la nueva definición de planeta dicta que, para que un cuerpo celeste sea considerado como tal debe cumplir con tres reglas, estas son:
-                                <ol>
-                                    <li>Debe orbitar el Sol.</li>
-                                    <li>Debe ser lo suficientemente masivo para alcanzar el equilibrio hidrostático y adquirir una forma esférica.</li>
-                                    <li>Debe haber limpiado su órbita de otros objetos menores, es decir, no compartir su órbita con otros objetos.</li>
-                                </ol>
-                                Es precisamente en el último punto en donde los planetas enanos fallan, ya que aunque orbitan alrededor del Sol y son prácticamente esféricos, todos comparten su órbita con enormes cantidades de asteroides formando parte de esos mismos grupos o cinturones:
-                                <ul>
-                                    <li>Ceres del Cinturón de Asteroides</li>
-                                    <li>Plutón, Makemake y Haumea del Cinturón de Kuiper</li>
-                                    <li>Eris del Disco Disperso</li>
-                                </ul>
                             </p>
+                            <ol>
+                                <li>Debe orbitar el Sol.</li>
+                                <li>Debe ser lo suficientemente masivo para alcanzar el equilibrio hidrostático y adquirir una forma esférica.</li>
+                                <li>Debe haber limpiado su órbita de otros objetos menores, es decir, no compartir su órbita con otros objetos.</li>
+                            </ol>
+                            <p>
+                                Es precisamente en el último punto en donde los planetas enanos fallan, ya que aunque orbitan alrededor del Sol y son prácticamente esféricos, todos comparten su órbita con enormes cantidades de asteroides formando parte de esos mismos grupos o cinturones:
+                            </p>
+                            <ul>
+                                <li>Ceres del Cinturón de Asteroides</li>
+                                <li>Plutón, Makemake y Haumea del Cinturón de Kuiper</li>
+                                <li>Eris del Disco Disperso</li>
+                            </ul>
                             <h2 id="kuiper">2.  Cinturón de Kuiper</h2>
                             <p>
                                 La segunda región de asteroides del Sistema Solar es el <b>Cinturón de Kuiper</b>, este cinturon de asteroides se encuentra más lejano y es mucho más amplio y masivo que el anterior ya que se localiza más allá de Neptuno a unas 30 Unidades Astronómicas (UA) y se extiende hasta las casi 50 UA del Sol, es decir, es enorme y su masa supera entre 20 y 200 veces la del Cinturón de Asteroides.<br><br>
-                                Se compone principalmente por cuerpos pequeños y rocas remanentes que datan de la formación del Sistema Solar, rocas que en su mayoría están compuestas de elementos volátiles congelados como metano, amoniaco y agua, y como se mencionó antes, además de pequeños asteroides, el Cinturón de Kuiper alberga tres de los planetas enanos: <b>Plutón, Haumea y Makemake</b>, siento estos sus objetos más grandes.<br><br>
+                                Se compone principalmente por cuerpos pequeños y rocas remanentes que datan de la formación del propio sistema, rocas que en su mayoría están compuestas de elementos volátiles congelados como metano, amoniaco y agua, y como se mencionó antes, además de pequeños asteroides, el Cinturón de Kuiper alberga tres de los planetas enanos: <b>Plutón, Haumea y Makemake</b>, siento estos sus objetos más grandes.<br><br>
                                 <b>Fuente de Cometas</b><br><br>
-                                A diferencia del Cinturón de Asteroides ubicado entre Marte y Júpiter, el Cinturón de Kuiper cuenta con objetos de considerable tamaño pues se cree que existen al menos unos 100,000 cuerpos de aproximadamente 100 km de diámetro, es decir, bastante grandes, por lo que se llegó a pensar que éste cinturón era la fuente de los cometas periódicos de órbitas menores a los 200 años, sin embargo investigaciones posteriores demostraron que el cinturón es bastante estable y pocos objetos escapan de él, apuntando a que el verdadero origen de los cometas es el llamado <b>Disco Disperso</b>, una región de asteroides que se solapa con el propio <b>Cinturón de Kuiper</b> en sus límites exteriores, como si ambos formaran parte de un mismo disco, sin embargo los objetos del Disco Disperso tienen órbitas tan excéntricas que los alejan hasta las 100 UA del Sol, es decir, mucho más allá de los límites del propio Cinturón de Kuiper.<br><br>
+                                A diferencia del Cinturón de Asteroides ubicado entre Marte y Júpiter, el Cinturón de Kuiper cuenta con objetos de considerable tamaño pues se cree que existen al menos unos 100,000 cuerpos de aproximadamente 100 km de diámetro, es decir, bastante grandes, por lo que se llegó a pensar que éste cinturón era la fuente de los cometas periódicos de órbitas menores a los 200 años, sin embargo investigaciones posteriores demostraron que el cinturón es bastante estable y pocos objetos escapan de él, sugiriendo que el verdadero origen debía estar en otro lado y todo parecía apuntar a que éste era el llamado <b>Disco Disperso</b>, una región de asteroides que se solapa con el propio <b>Cinturón de Kuiper</b> en sus límites exteriores, como si ambos formaran parte de un mismo disco, sin embargo los objetos del Disco Disperso mantienen posiciones muy irregulares y tienen órbitas tan excéntricas que los alejan hasta las 100 UA del Sol, es decir, mucho más allá de los límites del propio Cinturón de Kuiper.<br><br>
                                 A los cuerpos pertenecientes Cinturón de Kuiper también se les conoce como <b>objetos transneptunianos</b> y no solo a estos sino a los que forman parte del <b>Disco Disperso</b> y de la <b>Nube de Oort</b>. Un objeto transneptuniano no es más que cualquier objeto cuya órbita se ubica más allá de Neptuno, es decir, estos objetos son los cuerpos más lejanos que alberga nuestro Sistema Solar.
                             </p>
                             <h2 id="disco">3.  Disco Disperso</h2>
                             <p>
                                 Un poco más allá del <b>Cinturón de Kuiper</b> se encuentra el llamado <b>Disco Disperso</b> una enorme masa de asteroides que en su parte más interna, a unas 30 UA del Sol, se entrelaza con los límites exteriores del Cinturón de Kuiper haciendo que ambos conjuntos de objetos parezcan formar el mismo.<br><br>
                                 El Disco Disperso está conformado por cuerpos helados compuestos por roca, metal y hielo, algunos de ellos son tan grandes que superan por mucho a los objetos del Cinturón de Kuiper, alcanzando tamaños de hasta 1000 km de diámetro, siendo su miembro más grande el planeta enano <b>Eris</b> el cual tiene un diámetro de unos 2,600 km, es decir, prácticamente del mismo tamaño que Plutón, con la diferencia de que Eris tiene una masa 27% superior<br><br>
-                                Una de las características que diferencia al Disco Disperso de los cinturondes de Asteroides y Kuiper, es que mientras los objetos de éstos dos últimos se encuentran en órbitas relativamente planas, los objetos del disco disperso, como su nombre lo indica, se encuentran dispersos en órbitas heterogéneas e inestables, adquidas probablemente por la interacción gravitatoria de los planetas exteriores del Sistema Solar, principalmente Neptuno, lo que ha hecho que sus órbitas se hayan vuelto tan excéntricas que se siguen moviendo hacía el exterior y probablemente terminen formando parte de la <b>Nube de Oort</b> o quizás escapen al espacio interestelar.
+                                Una de las características que diferencia al Disco Disperso de los cinturondes de Asteroides y Kuiper, es que mientras los objetos de éstos dos últimos se encuentran en órbitas relativamente planas, los objetos del disco disperso, como su nombre lo indica, se encuentran dispersos en órbitas heterogéneas e inestables, adquidas probablemente por la interacción gravitatoria de los planetas exteriores del Sistema Solar, principalmente Neptuno, lo que ha hecho que sus órbitas se hayan vuelto tan excéntricas que se siguen moviendo hacía el exterior y probablemente terminen formando parte de la <b>Nube de Oort</b> o quizás terminen por escapar del Sistema Solar hacia el espacio interestelar.
                             </p>
                             <h2 id="oort">4. Nube de Oort</h2>
                             <p>
                                 Luego de hablar de los principales cinturones de asteroides que conforman el Sistema Solar, llegamos al más misterioso de todos, la denominada <b>Nube de Oort</b><br><br>
-                                Si el <b>Disco Disperso</b> ya es extraño por como sus objetos se encuentran dispersos sobre el plano de la eclítica, la Nube de Oort es todavía más extraña.<br><br>                                
+                                Si el <b>Disco Disperso</b> ya es extraño por como sus objetos se encuentran dispersos sobre el plano de la eclíptica, la Nube de Oort es todavía más extraña.<br><br>                                
                                 <img class="imagen" id="nube-oort" src="./recursos/img/nube_de_oort.jpg" title="Nube de Oort" alt="Nube de Oort">
                                 La <b>Nube de Oort</b>, a diferencia del <b>Cinturón de Asteroides, el Cinturón de Kuiper y el Disco Disperso</b>, no es un disco plano de rocas sino que más bien es como una "nube" que rodea a todo el <b>Sistema Solar</b>, es decir, esta nube es esférica, se encuentra en todas direcciones y está tan lejana que marca los límites del Sistema Solar con el espacio sideral. Se cree que esta nube está tan distante, que se sitúa unas 100 veces más lejos del Sol que el propio Disco Disperso y es tan grande que podría contener hasta cien billones de objetos cuya masa equivaldría a unas cinco veces la masa de nuestro planeta.<br><br>
-                                Se cree que los objetos de la Nube de Oort se formaron en el Sistema Solar Interior y que una vez formados fueron expulsados por la interacción gravitatoria con los planetas gigantes <b>Júpiter, Saturno, Urano y Neptuno.</b> Aunque algunos de estos objetos terminan regresando al Sistema Solar Interior en órbitas tan excéntricas que se les conoce como <b>cometas de perdiodo largo</b>, se cree que el propio cometa <b>Halley</b> proviene de esta nube, siendo ésta misma la verdadera fuente de los cometas de periodos largos, mientras que el <b>Disco Disperso</b> es la fuente de los de periodos cortos.<br><br>
+                                Se cree que los objetos de la Nube de Oort se formaron en el Sistema Solar Interior y que una vez formados fueron expulsados por la interacción gravitatoria con los planetas gigantes <b>Júpiter, Saturno, Urano y Neptuno.</b> Aunque algunos de estos objetos terminan regresando al Sistema Solar Interior en órbitas tan excéntricas que se les conoce como <b>cometas de perdiodo largo</b>, se cree que el propio cometa <b>Halley</b> proviene de esta nube, siendo ésta misma la verdadera fuente de este tipo de cometas, mientras que el <b>Disco Disperso</b> es la fuente de los de periodo corto.<br><br>
                                 <b>Existencia Hipotética</b><br><br>
-                                Aunque se habla mucho de esta nube, su existencia podría decirse que aún es hipotética puesto que no ha sido obervada directamente por varios factores, por ejemplo, sus objetos son muy pequeños comparados con un planeta, se encuentran extremadamente lejanos y además la luz que reciben del Sol es mínima por lo que es difícil verlos y solo se tiene evidencia de cinco posibles miembros:
+                                Aunque se habla mucho de esta nube, su existencia podría decirse que aún es hipotética puesto que no ha sido obervada directamente por varios factores, por ejemplo, sus objetos son muy pequeños comparados con un planeta, se encuentran extremadamente lejanos y además la luz que reciben del Sol es mínima por lo que brillan tan poco que es difícil verlos y solo se tiene evidencia de cinco posibles miembros:
                             </p>
                             <ul>
                                 <li>Sedna</li>
@@ -124,18 +131,19 @@
                             <p>
                                 Siendo todos estos parte de la Nube de Oort Interior, ya que esta se divide precisamente en Interior y Exterior.<br><br>
                                 <b>Nube de Oort Interior y Exterior</b><br><br>
-                                La <b>Nube de Oort Interior</b> también llamada <b>Nube de Hills</b>, se extiende desde las 2,000 UA hasta las 20,000 UA del Sol, es decir, siendo esta su parte más cercana al Sol, al mismo tiempo se encuentra extremadamente distante, ni siquiera la parte más externa del <b>Disco Disperso</b> está tan lejana, es decir, hay una enorme distancia entre el Disco Disperso y la Nube de Oort Interior.<br><br>
-                                Por otra parte, la <b>Nube de Oort Exterior</b> se extiende desde las 20,000 UA hasta las 50,000 UA del Sol, y algunas fuentes calculan su límite hasta las 200,000 UA, eso signica que la nube podría extenderse a más de un año luz del Sol, distancia a la que la gravedad del Sol es casi nula, por ello se dice que la Nube de Oort marca los límites de nuestro Sistema Solar, cruzando esta nube nos encontraríamos en el espacio interestelar.<br><br>
+                                La <b>Nube de Oort Interior</b> también llamada <b>Nube de Hills</b>, se extiende desde las 2,000 UA hasta las 20,000 UA del Sol, es decir, siendo esta su parte más cercana al Sol, al mismo tiempo se encuentra extremadamente distante, ni siquiera la parte más externa del <b>Disco Disperso</b> está tan lejana, es decir, <b>hay una enorme distancia entre el Disco Disperso y la Nube de Oort Interior</b>.<br><br>
+                                Por otra parte, la <b>Nube de Oort Exterior</b> se extiende desde las 20,000 UA hasta las 50,000 UA del Sol, y algunas fuentes calculan su límite hasta las 200,000 UA, eso signica que la nube podría extenderse tanto como un año luz de distancia, tan alejada que en dicha región la gravedad del Sol es casi nula, por ello se dice que la Nube de Oort marca los límites de nuestro Sistema Solar, cruzando esta nube nos encontraríamos en el espacio interestelar.<br><br>
                                 Es tan amplia la distancia a la que se encuentra esta nube del Sol, que a pesar de que está conformada por millones de objetos estos se localizan muy separados entre si, encontrándose cada uno de ellos a varias decenas de millones de kilómetros respecto al más cercano.<br><br>
                                 <b>Forma Esférica</b><br><br>
-                                Así como la gravedad de la Luna provoca las mareas en la Tierra, la <b>Nube de Oort</b> sufre éste mismo efecto de "marea" provocado por la propia <b>Vía Láctea</b>, haciendo que la nube no sea una esfera perfecta, sino que se vea ligeramente deformada hacia el centro de la galaxia, en la nube interior este efecto es mínimo ya que la gravedad del Sol supera a la del centro galáctico, pero en la nube exterior la gravedad del Sol es casi nula y se ve superada por la gravedad del centro de nuestra galaxia misma que tira de los objetos de la nube hacia el exterior.
+                                Así como la gravedad de la Luna provoca las mareas en la Tierra, la <b>Nube de Oort</b> sufre el mismo efecto de "marea" provocado por la propia <b>Vía Láctea</b>, haciendo que la nube no sea una esfera perfecta, sino que se vea ligeramente deformada hacia el centro de la galaxia atraída por la gravedad, en la nube interior este efecto es mínimo ya que la gravedad del Sol supera a la del centro galáctico, pero en la nube exterior la gravedad del Sol es casi nula y se ve superada por la gravedad del centro de nuestra galaxia misma que tira de los objetos de la nube hacia el exterior.<br><br>
+                                De hecho si hubiera alguna estrella considerablemente masiva y lo suficientemente cerca del Sol, su campo gravitatorio sería suficiente para alterar los objetos de esta nube, ya sea enviándolos al exterior o al interior del sistema, actualmente no existe una estrella como tal, sin embargo dado que las estrellas se mueven en torno al centro galáctico constantemente se acercan y alejan unas de otras, y en esta trayectoria de traslación el Sol está destinado a cruzarse (sin colisionar) con la estrella <b>Gliese 710</b> que hoy está a unos 63 AL de distancia pero según los científicos dentro de unos 1.4 millones de años esta estrella se acercará tanto al Sol que ambos astros se encontraran a tan solo una distancia de 1.1 AL, algo así como 70,000 UA, hecho que causará la mayor perturbación gravitatoria en el Sistema Solar provocando que muchos objetos de la nube salgan disparados hacia el interior del sistema, que nosotros en la Tierra, en el mejor de los casos, veríamos como cometas.
                             </p>                            
                             <h2 id="resumen">Resumen</h2>
                             <p>
-                                A pesar de que la distancia hace que muchos objetos del Universo sean un misterio para nosotros, ya que se encuentan a cientos, miles o incluso millones de años luz de distancia, hay otros objetos que aunque están mucho más cerca, a unas cuantas Unidades Astronómicas o máximo un año luz, son tan misteriosos como los mas lejanos, tal es el caso de la <b>Nube de Ooort</b>, que aunque forma parte de nuestro Sistema Solar no sabemos mucho de ella.<br><br>
-                                Aunque los telescopios actuales son muy poderosos, nos permiten ver objetos tan distances como lo son otras galaxias, en el caso de la Nube de Oort la situación no es la misma, las galaxias son objetos muy extensos, pueden medir cientos de miles de años luz además de que emiten mucha energía tanto lumínica como otro tipo de ondas electromagnéticas, por lo que son fácilmente observables con ayuda de telescopios, por el contrario los objetos de la Nube de Oort son muy pequeños, de unos cuántos kilómetros y no emiten luz, es decir, solo reflejan la poca que reciben del Sol a la distancia a la que están, por ello es tan difícil obervarlos y hacen de esta nube todo un misterio.
+                                A pesar de que la distancia hace que muchos objetos del Universo sean un misterio para nosotros, ya que se encuentan a cientos, miles o incluso millones de años luz, hay otros objetos que aunque están mucho más cerca, a unas cuantas Unidades Astronómicas o máximo un año luz, son tan misteriosos como los más lejanos, tal es el caso de la <b>Nube de Oort</b>, que aunque forma parte de nuestro <b>Sistema Solar</b> no sabemos mucho de ella.<br><br>
+                                Aunque los telescopios actuales son muy poderosos, nos permiten ver objetos tan distances como lo son otras galaxias, en el caso de la Nube de Oort la situación no es la misma, las galaxias son objetos muy extensos, pueden medir cientos de miles de años luz además de que emiten mucha energía tanto lumínica como otro tipo de ondas electromagnéticas, por lo que son fácilmente observables con ayuda de telescopios, por el contrario los objetos de la Nube de Oort son muy pequeños, de unos cuántos kilómetros y no emiten luz, es decir, solo reflejan la poca que reciben del Sol a la distancia a la que están, por ello es tan difícil obervarlos y hacen de esta nube todo un misterio para nosotros y la propia comunidad científica.
                             </p><br><br>
-                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
                             <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
                         </div>
                     </div>
