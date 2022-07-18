@@ -34,12 +34,19 @@
 
     </head>
     <body>
+        <div id="divHeader" class="col-sm-12">
+            <h3 id="divHeader__titulo"></h1>
+        </div>
+        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+            <li><a href="#" onclick="sitioInicio()"><img src="./recursos/icons/home_xs.png"> INICIO</a></li>
+            <li><span>ESTRELLAS</span></li>
+        </ul>
         <div id="divPrincipal" class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div id="divHeader" class="col-sm-12">
                     <h3 id="divHeader__titulo"></h1>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div id="relleno-izq" class="col-sm-1">
@@ -50,13 +57,13 @@
                     <div class="row">
 
                         <!-- *************** NAVEGACIÓN ************** -->
-                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                        <!-- <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
                             <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
                             <li><span>ESTRELLAS</span></li>
-                        </ul>
+                        </ul> -->
 
                         <div id="divContenido__plantillas" class="col-sm-12">
-                            <h2>Las Estrellas</h2>
+                            <h2 id="titulo">Las Estrellas</h2>
                             <p class="uk-dropcap">
                                 Probablemente las estrellas no parezcan tan impresionantes, parecen ser solo unos puntos luminosos que adornan nuestro cielo nocturno que desde hace miles de años han sido observados por nuestros antepasados quienes les dieron nombres y hasta formaron figuras imaginarias con ellas, pero en realidad son mucho más que eso, las estrellas no son más que "soles", al igual que el Sol, que se encuentran a distancias tan impresionantes que apenas podemos verlos como esos pequeños puntos luminosos, a veces blancos, azules o incluso naranja o rojo, colores que se deben a su composición y edad.<br><br>
                             </p>
@@ -74,11 +81,11 @@
                             <h2 id="tema-1">1. El Sol</h2>
                             <p>
                                 El <b>Sol</b> es la estrella más cercana a nosotros, se encuentra apenas a unos 8 minutos luz o bien, a <b>1 Unidad Astronómica</b>, distancia que equivale a unos 149 millones de kilómetros (149,000,000 km), mismos que la luz tarda en recorrer aproximadamente 8 minutos, por eso se dice que está a 8 minutos luz.<br><br>
-                                Como todas las estrellas, el Sol es un objeto enorme, es tan grande y masivo que representa el 99.8% de toda la masa del <b>Sistema Solar</b>, si lo comparamos con nuestro planeta, aunque la Tierra nos parezca muy grande cambrían casi 1 millón 300 mil Tierras en él, eso si de volúmen se trata, pero si solo comparamos su diámetro con el de la Tierra, el diámetro del Sol es de aproximadamente de 1,391,016 km mientras que el de la Tierra es de 12,742 km, eso quiere decir que de lado a lado, la Tierra cabría unas 109 veces en el Sol, como puedes darte cuenta el Sol es muy grande.<br><br>
-                                <b>La coincidencia a la que debemos los Eclipses Totales de Sol</b><br><br>
-                                A propósito de tamaños y distancias, es gracias a una curiosa coincidencia a la que debemos los eclipses totales de Sol, y esta es precisamente sus tamaños y distancias respecto a la Tierra. ¿Cómo es esto?<br><br>
-                                En primer lugar, tenemos que <b>el Sol es unas 400 veces más grande que la Luna</b> y al mismo tiempo resulta que <b>el Sol está casi 400 veces más lejos de la Tierra que la Luna</b>. ¿Qué significa esto?<br><br>
-                                Significa que aunque el Sol es mucho más grande que la Luna, al encontrarse el mismo número de veces que es mayor, más distante, hace que ambos objetos aparenten tener el mismo tamaño y por lo tanto cuando la Luna se interpone entre la Tierra y el Sol, ésta lo cubre en su totalidad provocando el conocido <b>Eclipse Total de Sol</b>,
+                                Como todas las estrellas, el Sol es un objeto enorme, es tan grande y masivo que representa el 99.8% de toda la masa del <b>Sistema Solar</b>, si lo comparamos con nuestro planeta, aunque la Tierra nos parezca muy grande cambrían casi 1 millón 300 mil tierras en él, eso si de volúmen se trata, pero si solo comparamos su diámetro con el de la Tierra, el diámetro del Sol es de aproximadamente de 1,391,016 km mientras que el de la Tierra es de 12,742 km, eso quiere decir que de lado a lado, la Tierra cabría unas 109 veces en el Sol, como puedes darte cuenta el Sol es muy grande.<br><br>
+                                <b>Eclipses Totales de Sol, una coincidencia</b><br><br>
+                                A propósito de tamaños y distancias, gracias a una curiosa coincidencia es que se dan los eclipses totales de Sol, y esta es precisamente sus tamaños y distancias respecto a la Tierra. ¿Cómo es esto?<br><br>
+                                En primer lugar, tenemos que <b>el Sol es unas 400 veces más grande que la Luna</b> y al mismo tiempo resulta que <b>el Sol está casi 400 veces más lejos de la Tierra que la Luna</b>. ¿Y esto qué significa?<br><br>
+                                Significa que aunque el Sol es mucho más grande que la Luna, al encontrarse el mismo número de veces que es mayor, más distante, hace que ambos objetos aparenten tener el mismo tamaño, es decir, desde la Tierra la Luna y el Sol se ven del mismo tamaño, y por lo tanto cuando la Luna se interpone entre la Tierra y el Sol, ésta lo cubre en su totalidad provocando el conocido <b>Eclipse Total de Sol</b>,
                                 <img class="imagen" id="img-eclipses" src="./recursos/img/eclipses-tipos.jpg" alt="eclipse-tipos" title="Tipos de eclipses">
                                 básicamente la Luna estando más cerca se ve más grande y el Sol estando más lejos se ve más chico, lo suficiente como para que la Luna pueda cubrirlo, claro esto no siempre pasa, tienen que darse todas las condiciones necesarias, la Luna orbita alrededor de la Tierra y no siempre está a la misma distancia del planeta, a veces más cerca a veces más lejos, por ello es que los eclipses de Sol no siempre son "totales", a veces son parciales o anulares.<br><br>
                                 Considerando el diámetro de la Luna como la unidad:
@@ -133,14 +140,14 @@
                             <p>
                                 En otras palabras, si el Sol fuera más grande, o la Luna más pequeña, o alguno de los dos se encontrara más lejos, esta coincidencia no se daría y no existirían los eclipses totales de Sol, ya que la Luna se vería más chica y no alcanzaría a cubrir el disco solar.<br><br>
                                 <b>Edad del Sol</b><br><br>
-                                Las estrellas viven literalmente millones de años, se dice que nuestro Sol tiene una edad aproximada de 4,600 millones de años y que por lo menos brillará otro lapso de tiempo igual, es decir, está a la mitad de su ciclo de vida como la mayoría de estrellas en el Universo, a esta etapa se le llama <b>Secuencia Principal</b>, esta es una fase por la que pasan la mayoría de estrellas en la que adoptan una luminosidad amarilla que indica que la estrella consume hidrógeno como combustible principal.<br><br>
+                                Las estrellas viven literalmente millones de años, se dice que nuestro Sol tiene una edad aproximada de 4,600 millones de años y que por lo menos vivirá otro lapso de tiempo igual, es decir, está a la mitad de su ciclo de vida como la mayoría de estrellas en el Universo, a esta etapa se le llama <b>Secuencia Principal</b>, ésta es una fase por la que pasan la mayoría de estrellas en la que adoptan una luminosidad amarilla que indica que la estrella consume hidrógeno como combustible principal.<br><br>
                                 Dado que el Sol, y todas las estrellas son enormes reactores nucleares, deben su calor y luminosidad a la fusión de elementos en su núcleo, en el caso del Sol está fusionando hidrógeno en helio, una vez que se termine el hidrógeno comenzará a fusionar el helio y así sucesivamente en un cliclo de fusión en el que cada vez los elementos resultantes serán más y más pesados, hasta el punto en que éstos no se podrán fusionar más, cuando el Sol llegue a esta etapa expandirá su volumen convirtiéndose en una <b>Gigante Roja</b>, que es un tipo de estrella moribunda, luego consumirá sus elementos restantes perdiendo masa y volumen hasta convertirse en una <b>Enana Blanca</b>, un tipo de estrella que se encuentra en la etapa final de su vida, permanecerá así hasta apagarse por completo, pero para que esto suceda deberán pasar al menos 4 mil millones de años.
                             </p>
                             <h2 id="tema-2">2. Próxima Centauri</h2>
                             <p>
-                                Luego del Sol, nuestra estrella vecina más cercana es <b>Próxima Centauri</b> o también llamada <b>Alfa Centauri C</b> ya que forma parte de un <b>sistema estelar</b> triple, es decir, un grupo de tres estrellas ligadas gravitatoriamente, es decir, se orbitan entre si y viajan juntas por el espacio.<br><br>
+                                Luego del Sol, nuestra estrella vecina más cercana es <b>Próxima Centauri</b> o también llamada <b>Alfa Centauri C</b> ya que forma parte de un <b>sistema estelar</b> triple, es decir, un grupo de tres estrellas ligadas gravitatoriamente que se orbitan entre sí y viajan juntas por el espacio.<br><br>
                                 Como su nombre lo sugiere, los nombres de estas estrellas son: <b>Alfa Centauri A, Alfa Centauri B y Alfa Centauri C</b>, siendo esta última la que por su posición orbital se ubica más próxima a la Tierra, de ahí su nombre <b>Próxima Centauri</b>.<br><br>
-                                Este sistema estelar se encuentra a unos 4.3 años luz de nuestro <b>Sistema Solar</b>, fuera de nuestro alcance pero muy cercano en comparación con otras estrellas, se compone por dos estrellas principales que son Alfa Centauri A y B, también llamadas Rigil Kentaurus y Toliman respectivamente, siendo la primera de un tamaño muy similar al Sol, solo un 10% más masiva y un 23% más grande, mientras que la segunda es un poco menor, estas dos estrellas se orbitan mútuamente muy cerca entre si, mientras que Próxima Centauri se encuentra más alejada, a unas 15 mil UA y las orbita a ambas, hecho por el cual se convierte en la más cercana, ya que al estar tan separada en algún punto de su órbita se coloca en dirección de nuestro sistema y por lo tanto más cerca de nosotros, es por ello que esta estrella se localiza a unos 4.22 años luz del Sol.
+                                Este sistema estelar se encuentra a unos 4.3 años luz de nuestro <b>Sistema Solar</b>, fuera de nuestro alcance pero muy cercano en comparación con otras estrellas, se compone por dos estrellas principales que son Alfa Centauri A y B, también llamadas Rigil Kentaurus y Toliman respectivamente, siendo la primera de un tamaño muy similar al Sol, solo un 10% más masiva y un 23% más grande, mientras que la segunda es un poco menor, estas dos estrellas se orbitan mútuamente muy cerca entre si, mientras que Próxima Centauri se encuentra más alejada, a unas 15 mil UA de ambas desde donde las orbita, hecho por el cual se convierte en la más cercana, ya que al estar tan separada en algún punto de su órbita se coloca en dirección de nuestro sistema y por lo tanto más cerca de nosotros, es por ello que esta estrella se localiza a unos 4.22 años luz del Sol.
                             </p>    
                             <div class="text-center">                          
                                 <img class="imagen" src="./recursos/img/alfa-centauri.jpg" title="Comparación Sol - Alfa Centauri">
@@ -259,7 +266,7 @@
                                 </tr>
                             </table>
                             <p>
-                                Son las más cercanas, pero de esta lista solo las estrellas Alfa Centauri A y B y Sirio A son visibles a simple vista, y de hecho Sirio A es la estrella más brillante del cielo nocturno, y citando a las 10 estrellas más brillantes (más el Sol y la Luna) la lista es la siguiente.
+                                Son las más cercanas, pero de esta lista solo las estrellas Alfa Centauri A y B y Sirio A son visibles a simple vista, y de hecho <b>Sirio A</b>, la principal estrella de la constelación <b>Can Mayor</b>, es la estrella más brillante del cielo nocturno, y citando a las 10 estrellas más brillantes (más el Sol y la Luna) la lista es la siguiente.
                             </p>
                             <table class="table tabla-estrellas">
                                 <tr>
@@ -342,26 +349,36 @@
                                 </tr>
                             </table>
                             <p>
-                                En este caso hay estrellas muy lejanas, como lo son <b>Rigel y Betelgeuse</b>, ambas de la constelación de <b>Orión</b>, que superan los 500 años luz de distancia y a pesar de estar tan lejos figuran entre las 10 estrellas más brillantes, ¿por qué sucede esto?, respuesta simple: porque son enormes.<br><br>
+                                En este caso hay estrellas muy lejanas, como lo son <b>Rigel y Betelgeuse</b>, ambas de la constelación de <b>Orión</b>, que superan los 600 años luz de distancia y a pesar de estar tan lejos figuran entre las 10 estrellas más brillantes, ¿por qué sucede esto?, respuesta simple: porque son enormes.<br><br>
                                 Por su parte Rigel tiene una masa que equivale a 18 veces la del Sol, es muy grande, tanto que si la colocaramos en el centro del Sistema Solar, su radio llegaría hasta la órbita de Mercurio, de hecho está catalogada como una estrella tipo <b>supergigante</b>, categoría que engloba a las estrellas que comprenden entre 18 y 50 masas solares, así como es tan grande también es extremadamente luminosa, su luminosidad es de unos 85 mil soles por lo que a pesar de la distancia podemos verla tan brillante.<br><br>
                                 Por otro lado <b>Betelgeuse</b> es tan masiva como Rigel o quizás lo sea aun más, también está catalogada como una <b>supergigante</b>, pero en este caso "roja", lo cual indica que es una estrella moribunda que se encuentra en la etapa final de su vida, aun así, tiene una luminosidad que supera a la del Sol en al menos 100 mil veces y es gracias a ello que se encuentra entre las más brillantes a pesar de su lejanía.<br><br>
 
                             </p>
                             <h2 id="tema-3">3. Magnitud Aparente y Absoluta</h2>
                             <p>
-                                Una de las categorías en las que se puede clasificar a las estrellas es precisamente por su luminosidad, esta se puede medir en dos tipos, la <b>Magnitud Aparente</b> y la <b>Magnitud Absoluta</b>.<br><br>
-                                <b>Magnitud Aparente</b><br><br>
-                                <b>Magnitud Absoluta</b><br><br>
+                                La mayoría de objetos en el Universo son visibles para nosotros porque emiten o reflejan luz, unos más que otros, la intensidad de esta luz es medida por los astrónomos como <b>magnitud</b>, y una de las categorías en las que se puede clasificar a las estrellas es precisamente por su luminosidad, esta se puede medir en dos tipos de magnitud que son <b>Aparente</b> y <b>Absoluta</b>.<br><br>
+                                <b>Magnitud Aparente (m)</b><br><br>
+                                Dicho de forma sencilla, la magnitud aparente <b>es el nivel de brillo de una estrella o cuerpo celeste visto desde la Tierra</b>, consecuentemente ésta magnitud se ve afectada por factores como luminosidad del objeto, distancia a la que se encuentra o existencia de polvo cósmico entre el objeto y la Tierra, por lo cual la magnitud aparente no representa la verdadera magnitud de la luminosidad del objeto en cuestión.<br><br> 
+                                <b>Magnitud Absoluta (M)</b><br><br>
+                                En contraparte, la magnigtud absoluta <b>es la magnitud aparente que tendría un objeto si estuviera a una distancia de 10 pársecs</b>, unos 32.6 AL, en un espacio vacío sin absorción interestelar, es decir, esta magnitud mide la luminosidad del objeto en condiciones óptimas, en otras palabras mide su verdadera luminosidad, esto para el caso de objetos muy brillantes como estrellas o galaxias, mientras que para cometas o asteroides, éstos tendrían que estar a 1 UA tanto de la Tierra como del Sol y completamente iluminados por éste.
                             </p>
                             <h2 id="tema-4">4. Evolución Estelar</h2>
-                            <p>s
-                                ...
+                            <p>
+                                Las estrellas al igual que nosotros no son eternas, mientras que nuestra existencia es efímera, el ciclo de vida de una estrella se extiende hasta los millones de años, algunas menos algunas más, el tiempo que vive una estrella depende de su masa, aquellas estrellas que son muy masivas, las consideradas como <b>supergigantes azules</b>, suelen vivir menos que estrellas menos masivas como el Sol, esto se debe a que los procesos nucleares de este tipo de estrellas se desarrollan a tal ritmo que consumen rápidamente su hidrógeno acortando su periodo de vida y provocando que terminen explotando como <b>supernova</b> dejando como remanente su núcleo convertido, dependiendo de su masa, en <b>estrella de neutrones</b> o <b>agujero negro</b>.<br><br>
+                                <b>¿Cómo se forma una estrella?</b><br><br>
+                                La vida de una estrella comienza en una <b>nube molecular</b> o <b>nebulosa</b>, esta es un conjunto de polvo y gases como Hidrógeno y Helio, que con el tiempo se va aglutinando por obra de la gravedad formando en su centro un objeto que cada vez se vuelve más masivo, a este objeto se le conoce como <b>protoestrella</b>, que es la primera fase en la formación de una estrella.<br><br>
+                                Cuando la protoestrella se vuelve suficientemente densa y el hidrógeno en su núcleo comienza a convertirse en helio por fusión nuclear liberando energía en el proceso se dice que la estrella entra en fase de <b>Secuencia Principal</b> y ya no es una protoestrella sino una estrella como tal.<br><br>
+                                Muchos se preguntan ¿cómo puede arder una estrella si en el espacio no hay oxígeno?, la respuesta es que la estrella no arde, al menos no por combustión, sino que su brillo lo debe a la fusión nuclear, en otras palabras las estrellas son enormes reactores nucleares.<br><br>
+                                La <b>Secuencia Principal</b> es la fase más larga en la vida de una estrella, luego de alcanzar la estabilidad se mantiene en esta etapa hasta consumir todo su hidrógeno, cosa que le lleva millones de años, esta cantidad de tiempo es variable y está en función de la masa, estrellas muy masivas lo consumen más rápido que estrellas menos masivas.<br><br>
+                                El Sol podría considerarse como una estrella de tamaño normal, no entra en la categoria de las gigantes sino que se encuentra por debajo de éstas, por lo tanto consume su hidrógeno a una velocidad moderada lo que hace que su vida sea muy larga, pero estrellas como <b>Rigel</b> que tiene una masa equivalente a 18 veces la del Sol, está catalogada como <b>supergigante azul</b>, consume su hidrógeno a un ritmo muy acelerado, tanto que se estima que ya consumió este elemento y que su núcleo está conformado de helio mismo que podría estar fusionando en carbono y oxígeno, a pesar de que la edad de la estrella es de apenas unos 10 millones de años, no se sabe cuántos millones de años le resten pero lo que si se sabe es que finalizará su vida como una <b>supernova</b>, mientras que el Sol terminará como una <b>enana blanca</b>, un tipo de estrella pequeña, casi del tamaño de un planeta, que ya no produce más energía solamente consume la que le resta por lo que poco a poco se irá apagando hasta terminar como una hipotética <b>enana negra</b>, hipotética porque el periodo de tiempo necesario para terminar como tal supera la edad del Universo.
                             </p>                       
                             <h2 id="resumen">Resumen</h2>
                             <p>
-                                ...
+                                <b>Las estrellas</b> son los objetos más comunes en el <b>Universo</b>, todo lo que estudiamos del mismo está directamente relacionado con ellas, por ejemplo las galaxias están conformadas por estrellas, para detectar exoplanetas primero debe buscarse una estrella candidata, para saber cómo se formó el <b>Sistema Solar</b> hay que entender cómo se forma una estrella, para ubicarnos en el espacio hay que usarlas como referencia y así el estudio de las estrellas nos ayuda a tener una comprensión cada vez mayor del Universo.<br><br>
+                                Además la astronomía nació con el estudio de las estrellas, ya que los antiguos las observaban sin saber qué tipo de objetos eran ni cuán distantes estaban, incluso les dieron nombres y formaron figuras con ellas, lo que hoy conocemos como <b>constelaciones</b>, además notaron que conforme pasaban los meses dejaban de verse unas mientras que comenzaban a verse otras y que este patrón se repetía años con año por lo que las usaron como referencia para conocer los periodos de las cosechas.<br><br>
+                                Hoy sabemos que son objetos muy distantes, que algunos planetas fueron confundidos con estrellas, que el Sol es una de ellas, que la más cercana está tan lejos que nos es imposible alcanzarla y que las más masivas al morir terminan por convertirse en esos extraños objetos que llamamos <b>agujeros negros</b> de los que ni la propia luz es capáz de escapar de ellos, así de sorprendentes e importantes son las estrellas.
                             </p><br><br>
-                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
                             <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
                         </div>
                     </div>

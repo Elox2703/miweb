@@ -34,12 +34,20 @@
 
     </head>
     <body>
+        <div id="divHeader" class="col-sm-12">
+            <h3 id="divHeader__titulo"></h1>
+        </div>        
+        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+            <li><a href="#" onclick="sitioInicio()"><img src="./recursos/icons/home_xs.png"> INICIO</a></li>
+            <li><span>AÑO LUZ</span></li>
+        </ul>
+
         <div id="divPrincipal" class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div id="divHeader" class="col-sm-12">
                     <h3 id="divHeader__titulo"></h1>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div id="relleno-izq" class="col-sm-1">
@@ -50,15 +58,15 @@
                     <div class="row">
 
                         <!-- *************** NAVEGACIÓN ************** -->
-                        <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
+                        <!-- <ul id="navegacion" class="col-sm-12 uk-breadcrumb">
                             <li><a href="#" onclick="sitioInicio()">INICIO</a></li>
                             <li><span>AÑO LUZ</span></li>
-                        </ul>
+                        </ul> -->
 
                         <div id="divContenido__plantillas" class="col-sm-12">
-                            <h2>Año Luz</h2>
+                            <h2 id="titulo">Año Luz</h2>
                             <p class="uk-dropcap">
-                                Alguna vez te has preguntado <b>¿Qué es un año luz?</b>, muchos piensan, erróneamente, que el término "año luz" se refiere a <b>tiempo</b> cuando en realidad se refiere a <b>distancia</b>, es decir, es una medida de longitud. El universo es tan vasto que las medidas que utilizamos cotidianamente en la Tierra simplemente allá afuera se quedan muy pero muy cortas y es por ello que, además de los centímetros, metros o kilómetros, para determinar distancias en el universo se emplean otras medidas "un poquito" más grandes, a continuación veremos cuáles son.
+                                Alguna vez te has preguntado <b>¿qué es un año luz?</b>, muchos piensan, erróneamente, que el término "año luz" se refiere a <b>tiempo</b> cuando en realidad se refiere a <b>distancia</b>, es decir, <b>es una medida de longitud</b>. El universo es tan vasto que las medidas que utilizamos cotidianamente en la Tierra simplemente allá afuera se quedan muy pero muy cortas y es por ello que, además de los centímetros, metros o kilómetros, para determinar distancias en el universo se emplean otras medidas "un poquito" más grandes, a continuación veremos cuáles son.
                             </p>
                             <div id="divIndice">
                                 <span>Contenido</span>
@@ -72,18 +80,19 @@
 
                             <h2 id="ua">1. Unidad Astronómica</h2>
                             <p>
-                                Todavía, para determinar distancias relativamente pequeñas como a la que se encuentra la Luna de la Tierra, o los planetas del Sol, utilizamos los kilómetros, por ejemplo, la Luna se encuentra a unos 380,000 kilómetros de la Tierra, o hablando de nuestro planeta, éste se encuentra a unos 149 millones de kilómetros del Sol, esto en número es 149,000,000 km.<br><br>
+                                Todavía, para determinar distancias relativamente pequeñas como a la que se encuentra la Luna de la Tierra, o los planetas del Sol, podemos utilizar los kilómetros, por ejemplo, la Luna se encuentra a unos 380,000 kilómetros de la Tierra, o hablando de nuestro planeta, éste se encuentra a unos 149 millones de kilómetros del Sol, esto en número es 149,000,000 km.<br><br>
                                 Como habrás notado, la distancia medida en kilómetros que nos separa del Sol ya contiene muchos ceros por lo que distancias mayores se vuelven incómodas de manejar y para muchos difíciles de leer, este motivo llevó a los astrónomos a crear nuevas unidades de medida para representar estas enormes distancias de una manera más práctica, una de ellas es precisamente la <b>Unidad Astronómica</b>.<br><br>
                                 <b>¿Qué es una Unidad Astronómica?</b><br><br>
-                                Dicho de forma simple, la Unidad Astronómica es la distancia promedio que hay entre la Tierra y el Sol y se representa con las siglas <b>U. A.</b>, por lo tanto podemos decir que:<br><br>
+                                Dicho de forma simple, la Unidad Astronómica es la distancia promedio que hay entre la Tierra y el Sol y se representa con las siglas <b>UA</b>, por lo tanto:<br><br>
                                 <b>1 UA</b> = 149,000,000 km<br><br>
-                                Haciendo uso de esta medida, es más sencillo decir que la Tierra se encuentra a 1 UA del Sol que decir que se encuentra a 149 millones de km, lo mismo para los planetas, por ejemplo Mercurio se encuentra a 0.39 UA del Sol y a su vez Marte se ubica a 1.52 unidades astronómicas del Sol.<br><br>
-                                En kilómetros estas distancias cuanto más grandes son se van volviendo más incómodas, por ejemplo si pensamos en el planeta más lejano, Neptuno, este se encuentra a unos 4,498,252,900 km, es decir, cuatro mil cuatrocientos noventa y ocho millones de kilómetros, que representado en <b>UA</b> es simplemente 30 UA.<br><br>
+                                Haciendo uso de esta medida, es más sencillo decir que la Tierra se encuentra a 1 UA del Sol que decir que se encuentra a 149 millones de km, lo mismo para los planetas, por ejemplo Mercurio se encuentra a 0.39 UA del Sol y a su vez Marte se ubica a 1.52 unidades astronómicas del Sol, así ya nos podemos hacer una idea de qué tan distantes están considerando como referencia la distancia a la que nosotros estamos del Sol y decir que la Tierra está aproximadamente ⅓ más cerca del Sol que Marte.<br><br>
+                                En kilómetros estas distancias cuanto más grandes son se van volviendo más incómodas, por ejemplo si pensamos en el planeta más lejano, Neptuno, este se encuentra a unos 4,498,252,900 km, es decir, cuatro mil cuatrocientos noventa y ocho millones de kilómetros del Sol, cantidad tan grande que no podemos siquiera imaginarla, pero que representada en <b>UA</b> es simplemente 30 y eso al menos ya nos dice que Neptuno está 30 veces más lejos del Sol que la Tierra.<br><br>
+                                Como puedes ver, la UA nos facilita mucho la comprensión a escala de cuán grande es nuestro Sistema Solar, pero para distancias mayores esta unidad no es muy útil y por ello se usan unidades mayores como el año luz o el pársec.<br><br>
                             </p>
                             <h2 id="luz">2.  Año Luz</h2>
                             <p>
-                                Fuera del Sistema Solar las distancias ya son enormes, por ejemplo, la vecina estrella más cercana al Sol, <b>Próxima Centauri</b>, se encuentra tan lejos que si expresaramos su distancia en kilómetros, esta sería de 39,921,200,000,000 km (39 billones 921 mil millones de kilómetros), y mientras más nos alejamos más ceros hay que incluir, incluso la <b>UA</b> se queda corta cuando de determinar distancias a estrellas se trata, esta misma estrella se encuentra a unas 267,927 UA del Sol. Por lo tanto para medir distancias estelares, es decir, a estrellas o galaxias, los astrónomos utilizan el <b>año luz</b> o bien el <b>parsec</b> que veremos más adelante.<br><br>
-                                <b>¿Qué es un Año Luz?</b><br>
+                                Fuera del Sistema Solar las distancias ya son enormes, por ejemplo, la estrella vecina más cercana al Sol, <b>Próxima Centauri</b>, se encuentra tan lejos que si expresaramos su distancia en kilómetros, esta sería de 39,921,200,000,000 km (39 billones 921 mil 200 millones de kilómetros), y mientras más nos alejamos más ceros hay que incluir, incluso la <b>UA</b> se queda corta cuando de determinar distancias a estrellas se trata, esta misma estrella se encuentra a unas 267,927 UA del Sol. Por lo tanto para medir distancias estelares, es decir, a estrellas o galaxias, los astrónomos utilizan el <b>año luz</b> o bien el <b>parsec</b> que veremos más adelante.<br><br>
+                                <b>¿Qué es un Año Luz?</b><br><br>
                                 Como se lee al principio, el <b>año luz</b> es una medida de longitud, se llama así porque representa la distancia que recorre la luz en un año viajando a unos 300,000 km/s aproximadamente.<br><br>
                                 Es decir, en un segundo un haz de luz se desplaza unos 300 mil kilómetros, por lo tanto en un minuto la luz recorre una distancia de unos 18,000,000 km y en una hora unos 1,080 millones de kilómetros, siguiendo este patrón y calculando cuántos segundos hay en un año podemos determinar cuánto es un año luz, multiplicando la velocidad de la luz por los segundos que hay en un año, es decir:<br><br>
                             </p>
@@ -119,14 +128,14 @@
                                 Entonces, si en un año hay <b>31,557,600 segundos</b> basta multiplicarlos por la velocidad de la luz que es <b>300,000 km/s</b>:<br><br>
                                 (31,557,600 s) (300,000 km/s) = 9,467,280,000,000 km<br><br>
                                 Por lo tanto <b>un año luz</b> es lo mismo que <b>9,467,280,000,000 km</b>, o bien 9.4 billones de kilómetros.<br><br>
-                                Bajo esta lógica, si eres alguien observador podrás deducir que así como decimos "año luz" también podríamos decir "día luz", "hora luz" o bien "minuto luz", para referirnos a la distancia que recorre la luz en un día, una hora o un segundo respectivamente.<br><br>
-                                Generalmente se utiliza el año luz ya que la medida es tan amplia que solo se emplea para determinar distancias entre estrellas o galaxias, pero también se puede aplicar para distancias menores, por ejemplo podemos decir que el Sol está a 8 minutos luz de la Tierra o bien que la Luna está a 1.2 segundos luz de la Tierra, ya que a la luz le toma 8 minutos llegar a la Tierra desde el Sol o 1.2 segundos recorrer los 380,000 km que nos separan de la Luna.<br><br>
+                                Bajo esta lógica, si eres alguien observador podrás deducir que así como decimos "año luz" también podríamos decir "día luz", "hora luz" o bien "minuto luz", para referirnos a la distancia que recorre la luz en un día, una hora o un minuto respectivamente.<br><br>
+                                Generalmente se utiliza el año luz ya que la medida es tan amplia que resulta bastante útil para determinar distancias entre estrellas o galaxias, pero también se puede aplicar para distancias menores, por ejemplo podemos decir que el Sol está a 8 minutos luz de la Tierra o bien que la Luna está a 1.2 segundos luz de la Tierra, ya que a la luz le toma 8 minutos llegar a la Tierra desde el Sol o 1.2 segundos recorrer los 380,000 km que nos separan de la Luna.<br><br>
                             </p>
                             <h2 id="parsec">3.  Parsec</h2>
                             <img class="imagen" id="divContenido__imgParsec" src="./recursos/img/parsec.png" title="Parsec" alt="Pársec o Parsec">
                             <p>
                                 El <b>Parsec</b> es una medida un tanto más compleja que la UA o el Año Luz, ya que se calcula geométricamente, su nombre proviene de <i>"<b>par</b>allax of one arc <b>sec</b>ond"</i>, es decir, <b>paralaje de un segundo de arco</b> y este se define como la distancia a la que una unidad astronómica subtiende un ángulo de un segundo de arco, visto gráficamente como se muestra en la imagen derecha.<br><br>
-                                Aunque parezca complicado, tanto para astrónomos como físicos, el parsec es la unidad de medida preferida ya que facilita los cálculos de distancias astronómicas a partir de datos de observación, mientras que el año luz se emplea más para fines de divulgación.<br><br>
+                                Aunque parezca complicado, tanto para astrónomos como físicos el parsec es la unidad de medida preferida ya que facilita los cálculos de distancias astronómicas a partir de datos de observación, mientras que el año luz se emplea más para fines de divulgación, además, el pársec es más amplio que el año luz, un pársec equivale a 3.26 AL, en otras palabras, un año luz es poco menos de ⅓ de pársec, o bien, 1 AL = 0.3 pársec.<br><br>
                                 <b>Equivalencias</b>
                             </p>
                             <table class="table">
@@ -136,15 +145,15 @@
                                 </tr>
                                 <tr>
                                     <td>Unidad Astronómica</td>
-                                    <td>206,265</td>
+                                    <td>206,265 UA</td>
                                 </tr>
                                 <tr>
                                     <td>Año Luz</td>
-                                    <td>3.26</td>
+                                    <td>3.26 AL</td>
                                 </tr>
                                 <tr>
                                     <td>Kilómetros</td>
-                                    <td>30,863,332,800,000</td>
+                                    <td>30,863,332,800,000 KM</td>
                                 </tr>
                             </table>
                             <p>
@@ -156,11 +165,11 @@
                             <h2 id="resumen">Resumen</h2>
                             <p>
                                 En la Tierra quizás la distancia entre un país y otro o entre continentes nos parezca enorme, pero en el espacio esas distancias son insignificantes, solo por comparar, el diametro promedio de la Tierra mide unos 12,600 km y la distancia entre la Tierra y la Luna es de unos 380,000 km, es decir, entre la Tierra y la Luna caben unos 31 diámetros terrestres o bien 31 tierras, así de enorme es la distancia que nos separa de nuestro único satélite natural, y si consideramos la distancia al Sol, esta es tan grande que podríamos poner en fila 11,825 tierras para cubrirla.<br><br>
-                                Y ni hablar de cuántas tierras cabrían entre la distancia que hay entre la Tierra y otras estrellas, tan solo pensando en la estrella más cercana al Sistema Solar cabrían más de 3 mil millones de tierras, muchas ¿no?.<br><br>
-                                Tan enormes son las distancias en el Universo que incluso para la luz, que es lo más rápido que conocemos, le toma años recorrer tales distancias, por ello mismo se dice que <b>mirar hacia el espacio es mirar al pasado</b> ya que si por ejemplo miramos una galaxia que se encuentra a 2.5 millones de años luz, significa que la estamos viendo a como era hace precisamente 2.5 millones de años puesto que la luz que emanó de ella hace ese mismo tiempo apenas nos está llegando.<br><br>
+                                Y ni hablar de cuántas tierras cabrían entre la distancia que hay entre nuestro planeta y otras estrellas, tan solo pensando en la estrella más cercana al Sistema Solar cabrían más de 3 mil millones de tierras, muchas ¿no crees?.<br><br>
+                                Tan enormes son las distancias en el Universo que incluso para la luz, que es lo más rápido que conocemos, le toma años recorrer tales distancias, por ello mismo se dice que <b>mirar hacia el espacio es mirar al pasado</b> ya que si por ejemplo miramos una galaxia que se encuentra a 2.5 millones de años luz, significa que la estamos viendo a como era hace precisamente 2.5 millones de años puesto que la luz que emanó de ella hace ese mismo tiempo apenas nos está llegando y la luz que dicha galaxia irradia hoy nos llegaría en 2.5 millones de años.<br><br>
                                 Lo mismo aplica para cualquier objeto lejano o cercano, volviendo al Sol, su luz tarda 8 minutos en llegarnos por lo tanto mirar el Sol es ver cómo era hace 8 minutos y si por ejemplo el Sol se apagara de golpe en este momento, nosotros no nos daríamos cuenta ya que lo seguiríamos viendo brillar al menos por 8 minutos luego éste desaparecería.
                             </p><br><br>
-                            <a href="#divHeader__titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
+                            <a href="#titulo" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/arriba.png"></a>
                             <a href="#" onclick="sitioInicio()" class="btn btn-primary rounded-pill mb-5"><img src="./recursos/icons/home.png"></a>
                         </div>
                     </div>
