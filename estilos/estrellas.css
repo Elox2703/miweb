@@ -35,11 +35,21 @@ table {
 
 .tabla-estrellas {
     border: 1px solid var(--bordeTabla);
-    max-width: 500px;
+    max-width: 560px;
     font-size: 14px;
+}
+
+.tabla-estrellas th {
+    text-align: center;
 }
 
 .tabla-estrellas th,
 .tabla-estrellas td {
     border: 1px solid var(--bordeTabla);
+}
+
+.titulo-tabla {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
